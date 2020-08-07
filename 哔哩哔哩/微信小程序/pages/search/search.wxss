@@ -1,0 +1,14 @@
+/* pages/search/search.wxss */
+.form{
+  position: relative;
+  height: 60rpx;
+}
+.searchInput{
+  border: 1px solid #2c3036;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+  color: #bebec4;
+  padding-left: 60rpx;
+}

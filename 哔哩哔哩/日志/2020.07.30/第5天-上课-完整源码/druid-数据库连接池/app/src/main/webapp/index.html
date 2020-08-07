@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .d-center {
+            width: 1000px;
+            height: 136px;
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .d-pic {
+            width: 250px;
+            height: 136px;
+        }
+        .d-pic > img {
+            width: 100%;
+            height: 100%;
+        }
+        .d-txt {
+            width: 750px;
+            height: 136px;
+        }
+        .d-item > p:nth-of-type(1) {
+            font-size: 20px;
+        }
+        .d-item > p:nth-of-type(2), .d-item > p:nth-of-type(3) {
+            color: rgb(159,126,140);
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h2>数据展示 - 后台管理平台</h2>
+    <h2><button>查询数据</button></h2>
+    <p></p>
+    <div class="d-center">
+        <div class="d-pic">
+            <img src="https://p9-xg.bytecdn.cn/img/tos-cn-i-0004/774707d49d3e4c5e97fd98c7ec2445d8~400x0.webp">
+        </div>
+        <div class="d-txt">
+            <div class="d-item">
+                <p>手游操作中的麦迪干拔姿势</p>
+                <p>2020-06-29 18:36</p>
+                <p>展现4288                    播放1669                    点赞4                    评论1</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-center">
+        <div class="d-pic">
+            <img src="https://p9-xg.bytecdn.cn/img/tos-cn-i-0004/774707d49d3e4c5e97fd98c7ec2445d8~400x0.webp">
+        </div>
+        <div class="d-txt">
+            <div class="d-item">
+                <p>手游操作中的麦迪干拔姿势</p>
+                <p>2020-06-29 18:36</p>
+                <p>展现4288                    播放1669                    点赞4                    评论1</p>
+            </div>
+        </div>
+    </div>
+</center>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script>
+    $(function() {  // jQuery主函数
+        $.ajax({    // 网络请求
+            url: 'http://localhost:8080/app/hello',
+            method: 'GET',
+            dataType: 'json',
+            success: function(e) {
+                console.log(e);
+            }
+        });
+    });
+</script>
+</html>

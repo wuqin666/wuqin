@@ -1,0 +1,91 @@
+<!-- <view class="page"> -->
+	<!-- <view class="d1"> -->
+		<image class="d2" bindtap="clicktx" src="/pages/image/l2.jpg">
+		<!-- <image class="i1" src="/pages/image/w1.png" style="height:50rpx;width:50rpx"></image> -->
+		</image>
+		<button class="bb1" value="点击登录" bindtap="clicklogin">点击登录</button>
+		<!-- <view class="d3"></view> -->
+		<view class="d4">
+			<view class="d41">动态</view>
+			<view class="d41">关注</view>
+			<view class="d41">粉丝</view>
+		</view>
+		<view class="d5"><text class="d51" style="margin-left:20rpx;margin-top:-40rpx">会员购</text></view>
+	<!-- </view> -->
+	<view class="d6">
+		<view class="d61">
+			<view class="d611">
+				<view class="d613">
+					<image src="/pages/image/离线缓存.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d612">离线缓存</view>
+			</view>
+			<view class="d611">
+				<view class="d613">
+					<image src="/pages/image/历史记录.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d612" bindtap="clicklsjl">历史记录</view>
+			</view>
+			<view class="d611">
+				<view class="d613">
+					<image src="/pages/image/我的收藏.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d612">我的收藏</view>
+			</view>
+			<view class="d611">
+				<view class="d613">
+					<image src="/pages/image/稍后再看.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d612">稍后再看</view>
+			</view>
+		</view>
+		<view class="d7">推荐服务</view>
+		<view class="d8">
+			<view class="d82">
+				<view class="d83">
+					<image src="/pages/image/我的课程 (2).png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d81">我的课程</view>
+			</view>
+			<view class="d82">
+				<view class="d83">
+					<image src="/pages/image/免流量服务.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d81">免流量服务</view>
+			</view>
+			<view class="d82">
+				<view class="d83">
+					<image src="/pages/image/个性装扮.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d81">个性装扮</view>
+			</view>
+		</view>
+		<view class="d9">更多服务</view>
+		<view class="d10">
+			<view class="d101">
+				<view class="d102">
+					<image src="/pages/image/联系客服.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d103">联系客服</view>
+			</view>
+			<view class="d101">
+				<view class="d102">
+					<image src="/pages/image/课堂模式.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d103">课堂模式</view>
+			</view>
+			<view class="d101">
+				<view class="d102">
+					<image src="/pages/image/青少年模式.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d103">青少年模式</view>
+			</view>
+			<view class="d101">
+				<view class="d102">
+					<image src="/pages/image/设 置.png" style="height:50rpx;width:50rpx"></image>
+				</view>
+				<view class="d103">设置</view>
+			</view>
+		</view>
+	</view>
+<!-- </view> -->

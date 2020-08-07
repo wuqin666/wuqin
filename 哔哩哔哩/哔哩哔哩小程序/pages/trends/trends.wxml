@@ -1,0 +1,56 @@
+<view class="top">
+<view class="swiper-tab">
+	<view class="swiper-tab-item {{currentTab == 0 ? 'active': ''}} " data-current='0' bindtap="clickTab">推荐</view>
+	<view class="swiper-tab-item {{currentTab == 1 ? 'active': ''}} " data-current='1' bindtap="clickTab">好友圈
+	</view>
+</view>
+</view>
+
+<swiper duration="300" current="{{currentTab}}" bindchange="swiperTab">
+	<swiper-item class="a1" >
+			<view class="center" wx:for='{{res}}' bindtap="bofang" data-id='{{item.videoid}}' data-url = '{{item.videourl}}' data-author = '{{item.videoauthor}}' 
+			   data-date = '{{item.videodate}}' data-fans = '{{item.videofans}}' data-goodnum = '{{item.videogoodnum}}' data-img = '{{item.videoimg}}'
+				  data-title = '{{item.videotitle}}' data-time = '{{item.videotime}}' data-playnum = '{{item.videoplaynum}}'>
+				<view class="img">
+					<image src="{{item.videocoverimg}}" class="img"></image>
+				</view>
+				<text>{{item.videotime}}</text>
+				<view class="zi">
+					<view class="title">{{item.videotitle}}</view>
+					<image src="../images/zuozhe.png" class="image"></image>
+					<view class="name">UP：{{item.videoauthor}}</view>
+					<image src="../images/bofang.png" class="image"></image>
+					<view class="name">播放量：{{item.videoplaynum}}</view>
+				</view>
+			</view>
+	</swiper-item>
+
+
+
+	<swiper-item>
+
+		<view class="my_top">
+			<image src="../images/1212.jpg"></image>
+		</view>
+		<view class="my_touxiang">
+			<view class="my_name">{{ress[0].t_username}}</view>
+			<image src="{{ress[0].t_userimg}}"></image>
+		</view>
+
+		<view class="my_bottom" wx:for="{{ress}}" >
+			<image class="my_touxiang2" src="{{item.t_userimg}}"></image>
+			<view class="my_name2">{{item.t_username}}</view>
+			<view class="title2">{{item.t_usertitle}}</view>
+			<video class="my_video"  src="{{item.videosrc}}"></video>
+			<view class="my_dianzan">
+				<image src="../images/zhuanfa.png"></image>
+				<view class="my_shuzi">{{item.t_usertrannum}}</view>
+				<image src="../images/pinglun.png" class="pl"></image>
+				<view class="my_shuzi">{{item.t_usercomment}}</view>
+				<image src="../images/zan.png"></image>
+				<view class="my_shuzi">{{item.t_userlikenum}}</view>
+			</view>
+		</view>
+
+	</swiper-item>
+</swiper>

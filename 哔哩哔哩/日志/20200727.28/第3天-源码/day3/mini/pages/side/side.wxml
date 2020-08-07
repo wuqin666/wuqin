@@ -1,0 +1,26 @@
+<!-- 容器 -->
+<view class='page'>
+
+  <!-- 左侧栏 - 容器  -->
+	<view class="page-bottom">
+		<view class="page-content">
+			<view class="wc">
+				<text>第一个item-1</text>
+			</view>
+			<view class="wc">
+				<text>第二个item-2</text>
+			</view>
+			<view class="wc">
+				<text>第三个item-3</text>
+			</view>
+			<view class="wc">
+				<text>第四个item-4</text>
+			</view>
+		</view>
+	</view>
+
+  <!-- 右侧栏 - 容器 -->
+	<view class="page-top {{open ? 'c-state1': ''}}">
+		<image src="/images/btn.png" bindtap="tap_ch"></image>
+	</view>
+</view>

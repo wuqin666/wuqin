@@ -1,0 +1,237 @@
+/* page{
+  background-color: violet;
+} */
+.swiper-tab {
+  width: 100%;
+  height: 88rpx;
+  border-bottom: 2rpx solid #ccc;
+  text-align: center;
+  line-height: 88rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.swiper-tab-item {
+  width: 22%;
+  color: #434343;
+}
+
+.active {
+  color: #F65959;
+  border-bottom: 4rpx solid #F65959;
+}
+
+.s2{
+  height: 2000rpx;
+  line-height: 800rpx;
+  font-weight: bold;
+  font-size: 45rpx;
+  /* text-align: center; */
+}
+.s1{
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  margin-top: 20rpx;
+  border-radius: 10%;
+}
+.lb{
+  width: 100%;
+  height: 400rpx;
+}
+.d3{
+  height:50rpx;
+  width: 100rpx;
+  /* color: white; */
+  margin-left: 32rpx;
+  margin-top:-350rpx;
+  font-size: 28rpx;
+  text-align:left;
+}
+
+
+
+
+
+.movable{
+  margin-top: 400rpx;
+  height: 200rpx;
+  width: 100%;
+  background-color:white;
+}
+movable-view{
+  height: 200rpx;
+  width: 200%;
+  background-color: white;
+  display: flex;
+  flex-direction: space-evenly;
+}
+.xiamian image{
+  height: 200rpx;
+  width: 200rpx;
+  margin-left: 30rpx;
+  border-radius: 10rpx;
+  margin-right: 14rpx;
+
+}
+.xiamian{
+  display: flex;
+  justify-content: space-around;
+  }
+.xiamian>view{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movable text{
+  font-size: 10px;
+  margin-left: 30rpx;
+}
+
+
+
+
+
+
+.d9{ 
+  height: 100rpx; 
+  width: 200rpx;
+  background-color: white;
+  /* /* border: 1px solid black; */
+} 
+.dd{
+  height: 100rpx;
+  width: 100rpx;
+  text-align: left;
+  margin-left: 32rpx;
+  font-size: 28rpx;
+  margin-top:-350rpx;
+  /* border: 1px solid black; */
+}
+.text{
+  height: 100rpx;
+  width: 100rpx;
+}
+.dd1{
+  height: auto;
+  width:auto;
+  /* background-color: chocolate; */
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  margin-top:350rpx;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+.dd2{
+  width: 336rpx;
+  height:250rpx;
+  /* border: 1px solid red; */
+  /* flex-wrap: wrap; */
+  /* margin-bottom: 0rpx; */
+}
+.dd2 image{
+  position: fixed;
+  width: 336rpx;
+  height:200rpx;
+}
+.dd3{
+  height: 50rpx;
+  width: 336rpx;
+  /* background-color: seagreen; */
+  position: fixed;
+  margin-top: 200rpx;
+  text-align: center;
+}
+
+
+
+
+
+.t3{
+  height: auto;
+  width:auto;
+  /* background-color: chocolate; */
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  margin-top: 20rpx;
+  /* margin-top:350rpx; */
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+.t1{
+  width: 700rpx;
+  height:300rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: royalblue;
+}
+.t2{
+  width: 700rpx;
+  height:300rpx;
+  /* background-color: seagreen; */
+  /* border-bottom: 10rpx solid rgb(242,242,242); */
+  border-left: 10rpx solid rgb(242,242,242);
+  border-right: 10rpx solid rgb(242,242,242);
+}
+.t1{
+  height:100rpx;
+  width: 692rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 10rpx solid rgb(242,242,242);
+  border-left: 10rpx solid rgb(242,242,242);
+  border-right: 10rpx solid rgb(242,242,242);
+
+}
+.t4{
+  height: 300rpx;
+  width: 300rpx;
+  position: fixed;
+} 
+.t5{
+  height: 50rpx;
+  width: 50rpx;
+  margin-left: 20rpx;
+}
+
+.t12{
+  height: 300rpx;
+  width: 400rpx;
+  /* background-color: tomato; */
+  /* margin-top: 20rpx; */
+  /* margin-right: 32rpx; */
+  margin-left: 300rpx;
+  border-right: 2rpx solid rgb(230,230,230);
+  border-bottom: 2rpx solid rgb(230,230,230);
+}
+.f3{
+  height: 1200rpx;
+  width:auto;
+  /* background-color: chocolate; */
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  /* margin-top:350rpx; */
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+.f2{
+  width: 700rpx;
+  height:300rpx;
+  background-color: seagreen;
+}
+.f1{
+  height:100rpx;
+  width: 700rpx;
+  background-color: sienna;
+}

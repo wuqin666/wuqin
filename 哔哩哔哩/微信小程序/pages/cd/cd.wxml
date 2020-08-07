@@ -1,0 +1,6 @@
+<!--pages/cd/cd.wxml-->
+<!-- <text>pages/cd/cd.wxml</text> -->
+<view class="container">
+  <view class="battery">
+  </view>
+</view>

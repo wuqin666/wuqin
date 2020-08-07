@@ -1,0 +1,10 @@
+<view class="wrap">
+	<view class="list">
+		<navigator class="item" wx:for="{{list}}" url="{{item.path}}">
+			<view class="img">
+				<image src="{{item.image}}"></image>
+			</view>
+			<text>{{item.text}}</text>
+		</navigator>
+	</view>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/userinfo/userinfo.wxml-->
+<!-- <text>pages/userinfo/userinfo.wxml</text> -->
+<image class="d2" src="/pages/image/l2.jpg"></image>
+<view class="d1">
+<view class="d3">
+<view class="d6">昵称</view>
+<view class="d7">乘风破浪的姐姐</view>
+</view>
+<view class="d5"></view>
+<view class="d3">
+<view class="d6">生日</view>
+<view class="d7">1993-10-23</view>
+</view>
+<view class="d5"></view>
+<view class="d3">
+<view class="d6">位置</view>
+<view class="d7">四川-成都</view>
+</view>
+<view class="d5"></view>
+<view class="d3">
+<view class="d6">性别</view>
+<view class="d7">男</view>
+</view>
+<view class="d5"></view>
+<view class="d3">
+<view class="d6">公司</view>
+<view class="d7">无</view>
+</view>
+<view class="d5"></view>
+</view>

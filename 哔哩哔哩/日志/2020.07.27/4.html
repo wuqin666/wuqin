@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.taiji {
+			margin: 0 auto; /* 水平居中 */
+			margin-top: 100px; /* 顶部距离100px */
+			width: 400px;
+			height: 200px;
+			border-radius: 50%;
+			border: 1px solid black;
+			border-bottom-width: 200px;
+			position: relative; /* 相对定位：针对自己的位置进行定位 */
+			animation: kf 5s  infinite linear;
+		}
+		/* ::before 伪元素（虚拟元素）; */
+		/* css的伪元素,之所以被称为伪元素,是因为他们不是真正的页面元素 */
+		.taiji::before {
+			content: '';
+			border: 85px solid black;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			background-color: white;
+			position: absolute; /* 父元素只要有定位才能控制子元素的在父元素中位置 */
+			top: 50%;
+			left: 0;
+		}
+		.taiji::after {
+			content: '';
+			border: 85px solid white;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			background-color: black;
+			position: absolute; /* 父元素只要有定位才能控制子元素的在父元素中位置 */
+			top: 50%;
+			right: 0;
+		}
+		@keyframes kf {
+			0%{
+				transform: rotate(0deg);
+			}100%{
+				transform: rotate(360deg);
+
+			}
+		}
+	</style>
+</head>
+<body>
+<div class="taiji"></div>
+</body>
+<ml>

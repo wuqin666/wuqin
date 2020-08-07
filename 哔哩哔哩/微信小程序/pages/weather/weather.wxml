@@ -1,0 +1,101 @@
+<!--pages/weather/weather.wxml-->
+<!-- <text>pages/weather/weather.wxml</text> -->
+<view class="wrap">
+  <view class="content">
+    <view class="h1">天气预报</view>
+    <view class="h2">{{weatherlist[0].area}}</view>
+    <view class="wendu">{{weatherlist[0].real}}</view>
+    <view class="zhuangkuang">{{weatherlist[0].weather}}</view>
+    <view class="riqi">{{weatherlist[0].date}}　{{weatherlist[0].week}}</view>
+    <view class="qujian">{{weatherlist[0].highest}}/{{weatherlist[0].lowest}}</view>
+  </view>
+  <view class="da">
+    <view class="xinxi">
+      <view class="tgwendu">{{weatherlist[0].real}}</view>
+      <view class="tgwendu2">体感温度</view>
+    </view>
+
+    <view class="xinxi">
+      <view class="tgwendu">{{weatherlist[0].wind}}</view>
+      <view class="tgwendu2">风向</view>
+    </view>
+
+    <view class="xinxi">
+      <view class="tgwendu">{{weatherlist[0].vis}} km</view>
+      <view class="tgwendu2">能见度</view>
+    </view>
+
+    <view class="xinxi">
+      <view class="tgwendu">{{weatherlist[0].pop}} %</view>
+      <view class="tgwendu2">降雨概率</view>
+    </view>
+  </view>
+
+  <view class="zi">七天天气预报</view>
+
+  <view class="qitian" wx:for='{{weatherlist}}'>
+    <view class="rqshijian">{{item.date}}</view>
+    <view class="zhoushu">{{item.week}}</view>
+    <view class="tqqingkuang" bindtap="tap_ch">{{item.weather}}</view>
+    <view class="tupian">{{item.real}}</view>
+    <view class="wenduqujian">{{item.highest}}/{{item.lowest}}</view>
+  </view>
+
+  <!-- <view class="qitian">
+     <view class="rqshijian">{{weatherlist[0].date}}</view>
+     <view class="zhoushu">{{weatherlist[0].week}}</view>
+     <view class="tqqingkuang" bindtap="tap_ch">{{weatherlist[0].weather}}</view>
+      <view class="tupian">{{weatherlist[0].real}}</view>
+     <view class="wenduqujian">{{weatherlist[0].highest}}/{{weatherlist[0].lowest}}</view>
+  </view>
+
+  <view class="qitian">
+     <view class="rqshijian">{{weatherlist[1].date}}</view>
+     <view class="zhoushu">{{weatherlist[1].week}}</view>
+     <view class="tqqingkuang">{{weatherlist[1].weather}}</view>
+      <view class="tupian">{{weatherlist[1].real}}</view>
+     <view class="wenduqujian">{{weatherlist[1].highest}}/{{weatherlist[1].lowest}}</view>
+  </view>
+
+  <view class="qitian">
+     <view class="rqshijian">{{weatherlist[2].date}}</view>
+     <view class="zhoushu">{{weatherlist[2].week}}</view>
+     <view class="tqqingkuang" >{{weatherlist[2].weather}}</view>
+      <view class="tupian">{{weatherlist[2].real}}</view>
+     <view class="wenduqujian">{{weatherlist[2].highest}}/{{weatherlist[2].lowest}}</view>
+  </view>
+
+  <view class="qitian">
+     <view class="rqshijian">{{weatherlist[3].date}}</view>
+     <view class="zhoushu">{{weatherlist[3].week}}</view>
+     <view class="tqqingkuang">{{weatherlist[3].weather}}</view>
+      <view class="tupian">{{weatherlist[3].real}}</view>
+     <view class="wenduqujian">{{weatherlist[3].highest}}/{{weatherlist[3].lowest}}</view>
+  </view>
+
+  <view class="qitian">
+     <view class="rqshijian">{{weatherlist[4].date}}</view>
+     <view class="zhoushu">{{weatherlist[4].week}}</view>
+     <view class="tqqingkuang">{{weatherlist[4].weather}}</view>
+      <view class="tupian">{{weatherlist[4].real}}</view>
+     <view class="wenduqujian">{{weatherlist[4].highest}}/{{weatherlist[4].lowest}}</view>
+  </view>
+
+  <view class="qitian">
+     <view class="rqshijian">{{weatherlist[5].date}}</view>
+     <view class="zhoushu">{{weatherlist[5].week}}</view>
+     <view class="tqqingkuang">{{weatherlist[5].weather}}</view>
+      <view class="tupian">{{weatherlist[5].real}}</view>
+     <view class="wenduqujian">{{weatherlist[5].highest}}/{{weatherlist[5].lowest}}</view>
+  </view>
+
+  <view class="qitian">
+     <view class="rqshijian">{{weatherlist[6].date}}</view>
+     <view class="zhoushu">{{weatherlist[6].week}}</view>
+     <view class="tqqingkuang">{{weatherlist[6].weather}}</view>
+      <view class="tupian">{{weatherlist[6].real}}</view>
+     <view class="wenduqujian">{{weatherlist[6].highest}}/{{weatherlist[6].lowest}}</view>
+  </view> -->
+
+
+</view>

@@ -1,0 +1,24 @@
+<view class="nav">
+  <view class="nav-text-left">
+    <text>密码登录</text>
+  </view>
+</view>
+<view class="body">
+  <view class="body-img">
+    <image src="../images/login-1.jpg"></image>
+    <image src="../images/login-2.jpg" class="img2"></image>
+  </view>
+  <view class="body-input">
+    <form class="input-form">
+      <view class="phone">
+        帐　号：<input class="phone-input" type="number" placeholder="请输入账号"  bindinput='expInput'/>
+      </view>
+      <view class="phone">
+        密　码：<input class="yz-input" type="password" placeholder="请输入密码"  bindinput='xepInput'/>
+      </view>
+      <view class="button" bindtap="bt">
+        验证登录
+      </view>
+    </form>
+  </view>
+</view>

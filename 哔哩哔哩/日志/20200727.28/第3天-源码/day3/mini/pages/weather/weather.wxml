@@ -1,0 +1,5 @@
+<view wx:for='{{weatherlist}}'>
+  <view>{{item.area}}</view>
+  <view>{{item.date}}</view>
+  <view>{{item.weather}}</view>
+</view>

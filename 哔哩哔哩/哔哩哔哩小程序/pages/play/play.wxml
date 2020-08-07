@@ -1,0 +1,79 @@
+
+<video  src="{{videourl}}" autoplay="true" class="50" style="width:100%"></video>
+
+<view class="swiper-tab">
+	<view class="swiper-tab-item {{currentTab == 0 ? 'active': ''}} " data-current='0' bindtap="clickTab">简介</view>
+	<view class="swiper-tab-item {{currentTab == 1 ? 'active': ''}} " data-current='1' bindtap="clickTab">评论</view>
+</view>
+
+<swiper duration="300" current="{{currentTab}}" bindchange="swiperTab" >
+<swiper-item>
+<view class="play_center">
+	<view class="play_touxiang"><image src="{{videoimg}}"></image></view>
+	<view class="play_name">{{videoauthor}}</view>
+	<view class="play_fensi">粉丝数：{{videofans}}</view>
+</view>
+
+<view class="play_title">{{videotitle}}</view>
+
+<view class="play_pl">
+<view class="play_bfl">
+	<image src="../images/bofang.png" ></image>
+	<view class="text aa">{{videoplaynum}}</view>
+	</view>
+
+	<view class="play_bfl">
+	<image src="../images/zan.png" ></image>
+	<view class="text aa1">{{videogoodnum}}</view>
+	</view>
+
+	<view class="play_bfl" wx:forslistw="{{neslist}}">
+	<image src="../images/shangchuan.png" ></image>
+	<view class="text">{{videodate}}</view>
+	</view>
+</view>
+
+
+
+<view class="play_xs">
+<view class="play_dx" wx:for="{{res}}" bindtap="bofang" data-id='{{item.videoid}}' data-url = '{{item.videourl}}' data-author = '{{item.videoauthor}}' 
+			   data-date = '{{item.videodate}}' data-fans = '{{item.videofans}}' data-goodnum = '{{item.videogoodnum}}' data-img = '{{item.videoimg}}'
+				  data-title = '{{item.videotitle}}' data-time = '{{item.videotime}}' data-playnum = '{{item.videoplaynum}}'> 
+<video><image src="{{item.videocoverimg}}"></image></video>
+<view class="play_text">{{item.videotitle}}</view>
+<view class="play_name play_name2">{{item.videoauthor}}</view>
+<view class="play_name play_name2 play_time2">{{item.videodate}}</view>
+</view>
+
+
+</view>
+
+</swiper-item>
+
+
+<swiper-item>
+<view class="play_center play_center2">
+	<view class="play_touxiang"><image src="../images/2.3.png"></image></view>
+	<view class="play_name name1">王麻子</view>
+	<view class="play_fensi  fensi1">06-05  20:11</view>
+	<view class="play_bfl bfl2">
+	<view class="text2">184.4万</view>
+	<image src="../images/zan.png" ></image>
+	</view>
+</view>
+	<view class="play_center_text">livbabvabvkvblasvblkdvls</view>
+
+
+
+
+
+
+
+
+
+
+
+</swiper-item>
+
+
+</swiper>

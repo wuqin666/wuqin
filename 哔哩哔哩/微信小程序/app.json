@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/weather/weather",
+    "pages/xiala/xiala",
+    "pages/tixian/tixian",
+    "pages/search/search",
+    "pages/searchdata/searchdata",
+    "pages/cehua/cehua",
+    "pages/bucong/bucong",
+    "pages/cd/cd",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,61 @@
+<!--pages/xiala/xiala.wxml-->
+<!-- <text>pages/xiala/xiala.wxml</text> -->
+<view class="xiala-nav">
+  <view class="xiala-item" wx:for='{{res}}' bindtap="show">
+    <text class="text1">{{item}}</text><image src="../images/xia.png" class="img"></image>
+  </view>
+</view>
+
+<view class="jiaju-select" hidden="{{yc}}">
+  <text class="jiaju-select-item">不限</text>
+  <text class="jiaju-select-item">照片墙</text>
+  <text class="jiaju-select-item">吊顶</text>
+  <text class="jiaju-select-item">楼梯</text>
+  <text class="jiaju-select-item">飘窗</text>
+  <text class="jiaju-select-item">电视墙</text>
+  <text class="jiaju-select-item">壁炉</text>
+  <text class="jiaju-select-item">墙纸</text>
+  <text class="jiaju-select-item">窗帘</text>
+  <text class="jiaju-select-item">吧台</text>
+  <text class="jiaju-select-item">背景墙</text>
+  <text class="jiaju-select-item active">酒柜</text>
+  <text class="jiaju-select-item">鞋柜</text>
+  <text class="jiaju-select-item">隔断</text>
+  <text class="jiaju-select-item"></text>
+</view>
+
+<view class="jiaju-select" hidden="false">
+  <text class="jiaju-select-item">不限</text>
+  <text class="jiaju-select-item">照片墙</text>
+  <text class="jiaju-select-item">吊顶</text>
+  <text class="jiaju-select-item">楼梯</text>
+  <text class="jiaju-select-item">飘窗</text>
+  <text class="jiaju-select-item">电视墙</text>
+  <text class="jiaju-select-item">壁炉</text>
+  <text class="jiaju-select-item">墙纸</text>
+  <text class="jiaju-select-item">窗帘</text>
+  <text class="jiaju-select-item">吧台</text>
+  <text class="jiaju-select-item">背景墙</text>
+  <text class="jiaju-select-item active">酒柜</text>
+  <text class="jiaju-select-item">鞋柜</text>
+  <text class="jiaju-select-item">隔断</text>
+  <text class="jiaju-select-item"></text>
+</view>
+
+<view class="jiaju-select" hidden="{{yc2}}">
+  <text class="jiaju-select-item">不限</text>
+  <text class="jiaju-select-item">照片墙</text>
+  <text class="jiaju-select-item">吊顶</text>
+  <text class="jiaju-select-item">楼梯</text>
+  <text class="jiaju-select-item">飘窗</text>
+  <text class="jiaju-select-item">电视墙</text>
+  <text class="jiaju-select-item">壁炉</text>
+  <text class="jiaju-select-item">墙纸</text>
+  <text class="jiaju-select-item">窗帘</text>
+  <text class="jiaju-select-item">吧台</text>
+  <text class="jiaju-select-item">背景墙</text>
+  <text class="jiaju-select-item active">酒柜</text>
+  <text class="jiaju-select-item">鞋柜</text>
+  <text class="jiaju-select-item">隔断</text>
+  <text class="jiaju-select-item"></text>
+</view>

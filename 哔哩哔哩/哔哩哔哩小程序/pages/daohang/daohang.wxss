@@ -1,0 +1,60 @@
+/* pages/daohang/daohang.wxss */
+/* .page{ */
+  /* height: 100%; */
+  /* width: 100%; */
+  /* background-color: rgb(138,138,138); */
+/* } */
+.d1{
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(242,242,242); */
+  /* border: 1rpx solid  rgb(156, 132, 132); */
+  position: fixed;
+}
+.d2{
+  height: 80rpx;
+  padding-top: 25rpx;
+  width: 100%;
+  text-align: center;
+}
+.d3{
+  height: 200rpx;
+  width: 230rpx;
+  /* background-color: rgb(188, 211, 233); */
+  font-size: 28rpx;
+} 
+.d4{
+  height: 100rpx;
+  width: 230rpx;
+  margin-top: 20rpx;
+  /* background-color: springgreen; */
+}
+.image{
+  margin-right: 90rpx;
+  margin-left: 90rpx;
+  /* margin-top: 20rpx; */
+  position: fixed;
+}
+.d5{
+  height: 100rpx;
+  width: 230rpx;
+  position: relative;
+  margin-left: -40rpx;
+  margin-top: -52rpx;
+  /* background-color: chartreuse; */
+  text-align: center;
+  font-size: 28rpx;
+}  
+.d6{
+  height: 700rpx;
+  width: 700rpx;
+  /* background-color: chocolate; */
+  justify-content: space-around;
+  margin-top: 20rpx;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  display: flex;
+  /* margin: 0 auto; */
+  /* align-items: center; */
+  flex-wrap: wrap;
+}

@@ -1,0 +1,27 @@
+<!--pages/daohang/daohang.wxml-->
+<!-- <view class="page"> -->
+<view class="d1">
+<view class="d2">
+<text>导航</text></view>
+<view class="d6">
+<view class="d3">
+<view class="d4" bindtap="clickTab"><image src="/pages/image/动画.png" style="height:50rpx;width:50rpx"></image><view class="d5">动画</view></view></view>
+<view class="d3">
+<view class="d4" bindtap="clickTab"><image src="/pages/image/小视频.png" style="height:50rpx;width:50rpx"></image><view class="d5">小视频</view></view></view>
+<view class="d3">
+<view class="d4" bindtap="clickTab"><image src="/pages/image/时尚.png" style="height:50rpx;width:50rpx"></image><view class="d5">时尚</view></view></view>
+<view class="d3">
+<view class="d4" bindtap="clickTab"><image src="/pages/image/游戏.png" style="height:50rpx;width:50rpx"></image><view class="d5">游戏</view></view></view>
+<view class="d3">
+<view class="d4" bindtap="clickTab"><image src="/pages/image/生活.png" style="height:50rpx;width:50rpx"></image><view class="d5">生活</view></view></view>
+<view class="d3">
+<view class="d4" bindtap="clickTab"><image src="/pages/image/电影.png" style="height:50rpx;width:50rpx"></image><view class="d5">电影</view></view></view>
+<view class="d3">
+<view class="d4" bindtap="clickTab"><image src="/pages/image/电视剧.png" style="height:50rpx;width:50rpx"></image><view class="d5">电视剧</view></view></view>
+<view class="d3">
+<view class="d4" bindtap="clickTab"><image src="/pages/image/舞蹈.png" style="height:50rpx;width:50rpx"></image><view class="d5">舞蹈</view></view></view>
+<view class="d3">
+<view class="d4" bindtap="clickTab"><image src="/pages/image/音乐.png" style="height:50rpx;width:50rpx"></image><view class="d5">音乐</view></view></view>
+</view>
+</view>
+<!-- </view> -->

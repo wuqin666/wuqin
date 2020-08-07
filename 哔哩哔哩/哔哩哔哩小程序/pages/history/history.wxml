@@ -1,0 +1,59 @@
+<!-- pages/history/history.wxml
+<text>pages/history/history.wxml</text> -->
+<view class="d4">历史记录</view>
+<view class="d1">
+<view class="d2">
+<view class="d5"></view>
+<view class="d6">3-24</view>
+<view class="d7">麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子</view>
+</view>
+<view class="d3"></view>
+<view class="d2">
+<view class="d5"></view>
+<view class="d6">3-25</view>
+<view class="d7">麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子</view>
+</view>
+<view class="d3"></view>
+<view class="d2">
+<view class="d5"></view>
+<view class="d6">3-26</view>
+<view class="d7">麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子麻子</view>
+</view>
+<view class="d3"></view>
+<view class="d2">
+<view class="d5"></view>
+<view class="d6">3-24</view>
+<view class="d7">麻子麻子麻子麻子麻子麻子麻子麻子</view>
+</view>
+<view class="d3"></view>
+<view class="d2">
+<view class="d5"></view>
+<view class="d6">3-24</view>
+<view class="d7">麻子麻子麻子麻子麻子麻子麻子麻子麻子</view>
+</view>
+<view class="d3"></view>
+<view class="d2">
+<view class="d5"></view>
+<view class="d6">3-24</view>
+<view class="d7">麻子麻子麻子麻子麻子麻子麻子</view>
+</view>
+<view class="d3"></view>
+<view class="d2">
+<view class="d5"></view>
+<view class="d6">3-24</view>
+<view class="d7">麻子麻子麻子麻子麻子麻子</view>
+</view>
+<view class="d3"></view>
+<view class="d2">
+<view class="d5"></view>
+<view class="d6">3-24</view>
+<view class="d7">麻子麻子麻子麻子</view>
+</view>
+<view class="d3"></view>
+<view class="d2">
+<view class="d5"></view>
+<view class="d6">3-24</view>
+<view class="d7">麻子麻子麻子麻子麻子</view>
+</view>
+<view class="d3"></view>
+</view>

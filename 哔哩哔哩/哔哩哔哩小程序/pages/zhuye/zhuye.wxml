@@ -1,0 +1,58 @@
+<view class='swiper-tab'>
+	<view class="swiper-tab-item {{currentTab == 0 ? 'active': ''}}" data-current='0' bindtap='clickTab'>直播</view>
+	<view class="swiper-tab-item {{currentTab == 1 ? 'active': ''}}" data-current='1' bindtap='clickTab'>推荐</view>
+	<!-- <view class="swiper-tab-item {{currentTab == 2 ? 'active': ''}}" data-current='2' bindtap='clickTab'>分类</view> -->
+</view>
+
+<swiper class="s2" duration="300" current="{{currentTab}}" bindchange='swiperTab'>
+	<swiper-item>
+		<view style="height:1000rpx width:350rpx ">
+			<swiper class="s1" style="height:300rpx width:350rpx " indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+				<swiper-item>
+					<image src="/pages/image/l1.jpg" style="width:700rpx;height:400rpx"></image>
+				</swiper-item>
+				<swiper-item>
+					<image src="/pages/image/l2.jpg" style="width:700rpx;height:400rpx"></image>
+				</swiper-item>
+				<swiper-item>
+					<image src="/pages/image/l3.jpg" style="width:700rpx;height:400rpx"></image>
+				</swiper-item>
+				<swiper-item>
+					<image src="/pages/image/l4.jpg" style="width:700rpx;height:400rpx"></image>
+				</swiper-item>
+			</swiper>
+			<view class="d3"><text>推荐</text></view>
+			<movable-area class="movable">
+				<movable-view direction="horizontal" inertia="ture" damping="40" friction="5">
+					<view wx:for='{{videolist}}' bindtap="bofang" data-id='{{item.videoid}}' data-url = '{{item.videourl}}' data-author = '{{item.videoauthor}}' 
+			   data-date = '{{item.videodate}}' data-fans = '{{item.videofans}}' data-goodnum = '{{item.videogoodnum}}' data-img = '{{item.videoimg}}'
+				  data-title = '{{item.videotitle}}' data-time = '{{item.videotime}}' data-playnum = '{{item.videoplaynum}}'>
+						<view class="xiamian" >
+							<image src="{{item.videocoverimg}}"></image>
+						</view>
+						<text>现在的我</text>
+					</view>
+				</movable-view>
+			</movable-area>
+			<view class="dd">视频</view>
+			<view class="dd1" >
+				<view class="dd2" wx:for="{{videolist}}" bindtap="bofang" data-id='{{item.videoid}}' data-url = '{{item.videourl}}' data-author = '{{item.videoauthor}}' 
+			   data-date = '{{item.videodate}}' data-fans = '{{item.videofans}}' data-goodnum = '{{item.videogoodnum}}' data-img = '{{item.videoimg}}'
+				  data-title = '{{item.videotitle}}' data-time = '{{item.videotime}}' data-playnum = '{{item.videoplaynum}}'>
+					<image class="dd4" src="{{item.videocoverimg}}"></image>
+					<view class="dd3">11111</view>
+				</view>
+			</view>
+		</view>
+	</swiper-item>
+	<swiper-item>
+		<view>
+			<view class="t3">
+				<view class="t2" wx:for="{{videolist}}">
+					<image class="t4" src="{{item.videocoverimg}}"></image>
+					<view class="t12"></view>
+				</view>
+			</view>
+		</view>
+	</swiper-item>
+</swiper>

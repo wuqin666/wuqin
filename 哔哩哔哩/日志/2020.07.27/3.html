@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			@keyframes roll{
+				from{transform: rotate(0);}
+				to{transform: rotate(360deg);}
+			}
+			.a1{
+				height: 200px;
+				width: 400px;
+				border: 1px solid black;
+				border-radius: 50%;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-top: -200px;
+				margin-left: -200px;
+				border-bottom-width: 200px;
+				animation: roll 4s linear infinite ;
+			}
+			.a2{
+				height: 200px;
+				width: 200px;
+				position: absolute;
+				left: 50%;
+				right: 50%;
+				background-color: #000000;
+				border-radius: 50%;
+				margin-top: 100px;
+			}
+			.a3{
+				height: 200px;
+				width: 200px;
+				position: absolute;
+				left: 50%;
+				right: 50%;
+				background-color: #ffffff;
+				/* border: 1px solid black; */
+				border-radius: 50%;
+				margin-top: 100px;
+				margin-left: -200px;
+			}
+			.a4{
+				height: 50px;
+				width: 50px;
+				position: absolute;
+				left: 50%;
+				right: 50%;
+				background-color: #ffffff;
+				border: 1px solid black;
+				border-radius: 50%;
+				margin-top: 175px;
+				margin-left: 75px;
+			}
+			.a5{
+				height: 50px;
+				width: 50px;
+				position: absolute;
+				left: 50%;
+				right: 50%;
+				background-color: #000000;
+				border: 1px solid black;
+				border-radius: 50%;
+				margin-top: 175px;
+				margin-left: -125px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a1">
+			<div class="a2"></div>
+			<div class="a3"></div>
+			<div class="a4"></div>
+			<div class="a5"></div>
+		</div>
+	</body>
+</html>

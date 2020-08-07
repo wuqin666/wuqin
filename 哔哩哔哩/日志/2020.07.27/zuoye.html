@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				background-image: linear-gradient(to top,#fff,skyblue);
+				background-repeat: no-repeat;
+				height: 500px;
+			}
+			.wrap{
+				width: 45%;
+				height: 500px;
+				margin:100px auto;
+				/* border: 1px solid red; */
+			}
+			.content{
+				height: 200px;
+				width: 100%;
+				/* background-color: #dedede; */
+				display: flex;
+				justify-content: space-between;
+				margin-top: 100px;
+			}
+			h1{
+				/* border: 1px solid red; */
+				font-size: 48px;
+				font-weight: 700;
+				color: #fff;
+				text-align: center;
+			}
+			.a{
+				/* background-color: #fff; */
+				/* border: 1px solid black; */
+				height: 200px;
+				width: 240px;
+				/* filter: blur(0px); */
+			}
+			.a2{
+				height: 50px;
+				width: 150px;
+				border: 1px solid #F1F1F1;
+				border-radius: 20px;
+				text-align: center;
+				margin: auto;
+				margin-top: 30px;
+				line-height: 50px;
+				font-size: 20px;
+				background-color: powderblue;
+				color: white;
+				letter-spacing: 5px;
+			}
+			.a1{
+				/* border: 1px solid green; */
+				background-color: #FFFFFF;
+				height: 200px;
+			}
+			h2{
+				text-align: center;
+				font-size: 48px;
+			}
+			.pic{
+				/* border: 1px solid red; */
+				margin-top: -200px;
+				opacity: 0;
+				transform: scale(0.6);
+			}
+			img{
+				border-radius: 20px;
+			}
+			.a:hover .pic{
+				transform: scale(1) ;
+				transition: 1s all;
+				opacity: 1;
+			}
+			.a:hover img{
+				transform: scale(1.2) rotate(360deg);
+				transition: 0.3s all;
+				opacity: 1;
+			}
+			.content:hover .a1{
+				transform: scale(0.7);
+				transition: 0.1s all;
+				filter: blur(5px);
+			}
+			.a3{
+				height: 120px;
+				width: 144px;
+				/* border: 3px solid red; */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<h1>选美大赛</h1>
+				<div class="content">
+					
+					<div class="a">
+						<div class="a1">
+							<h2>1</h2>
+							<div class="a2">滑入翻转</div>
+						</div>
+							<div class="pic">
+								<img src="img/1.png" >
+							</div>
+					</div>
+					
+					<div class="a">
+						<div class="a1">
+							<h2>2</h2>
+							<div class="a2">滑入翻转</div>
+						</div>	
+							<div class="pic">
+								<img src="img/2.png" >
+							</div>
+					</div>
+					
+					<div class="a">
+						<div class="a1">
+							<h2>3</h2>
+							<div class="a2">滑入翻转</div>
+						</div>	
+							<div class="pic">
+								<img src="img/3.png" >
+							</div>
+					</div>
+					
+					<div class="a">
+						<div class="a1">
+							<h2>4</h2>
+							<div class="a2">滑入翻转</div>
+						</div>	
+							<div class="pic">
+								<img src="img/4.png" >
+							</div>
+					</div>
+					
+					
+				</div>
+			</div>
+	</body>
+</html>
