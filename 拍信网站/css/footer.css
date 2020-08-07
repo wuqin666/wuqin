@@ -1,0 +1,30 @@
+@charset "utf-8";
+#footer {
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 1200px;
+	height: 330px;
+}
+
+#right_logo {
+	float: left;
+	width: 300px;
+	height: 220px;
+	margin-top: 30px;
+}
+
+#table {
+	float: left;
+	margin-top: -10px;
+}
+
+#left_er {
+	float: left;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+#footer_bottom {
+	clear: both;
+}

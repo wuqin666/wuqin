@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>西瓜视频</title>
+    <style>
+        input{
+            font-size: 15px;
+            color: black;
+            text-indent: 2em;
+        }
+        input,button{
+            outline: none;
+        }
+        *{
+        padding: 0px;
+        margin: 0px;
+        }
+        .header{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+        .left{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .left img{
+            width: 20px;
+            height:20px;
+            margin-left: 20px;
+        }
+        .left span{
+            font-size: 20px;
+            margin-left: 20px;
+            color: #ff142b;
+        }
+        .Center{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .Center input{
+            width: 400px;
+            height: 60%;
+            border-radius: 25px 0px 0px 25px;
+            border-color: #ff142b;
+        }
+        .Center button{
+            width: 100px;
+            height: 65%;
+            border-radius: 0px 25px 25px 0px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:linear-gradient(to left,#ff3183, #ff102b);
+        }
+        .Center button img{
+            width: 25px;
+            height: 25px;
+        }
+        .right{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .right div{
+            width: 15%;
+            height: 100%;
+            margin-left: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .right div img{
+            width: 25px;
+            height: 25px;
+        }
+        .box{
+            width: 100%;
+            display: flex;
+            height: calc(100vh - 80px);
+        }
+
+        .bodyleft{
+            width: 20%;
+            height: 100%;
+            text-align: center;
+            overflow-y: auto;
+        }
+        .bodyleft > ul >li > a{
+           text-decoration: none;
+            color: black;
+            margin-left: 10px;
+        }
+        .bodyleft > ul > li{
+            line-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .bodyleft ul li img{
+            width: 25px;
+            height: 25px;
+        }
+        .bodyright{
+            width:80%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            overflow-y: auto;
+        }
+        .bodyright > div{
+            width: 350px;
+            height: 250px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .bodyright > div > img{
+            width: 350px;
+            height: 200px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="left">
+        <img src="img/菜单.png" alt="">
+        <span>西瓜视频</span>
+    </div>
+    <div class="Center">
+        <input type="text" placeholder="请输入搜索内容...">
+        <button>
+            <img src="img/search.png" alt="">搜索
+        </button>
+    </div>
+    <div class="right">
+        <div>
+            <img src="img/download.png" alt="">
+            <span>下载APP</span>
+        </div>
+        <div>
+            <img src="img/电视剧.png" alt="">
+            <span>直播</span>
+        </div>
+        <div>
+            <img src="img/拍摄.png" alt="">
+            <span>发布视频</span>
+        </div>
+        <div>
+            <img src="img/消息.png" alt="">
+            <span>消息</span>
+        </div>
+    </div>
+</div>
+<div class="box">
+    <div class="bodyleft">
+        <ul>
+            <li><img src="img/首页.png" alt="" style="width: 30px;height: 30px"><a href="#">首页</a></li>
+            <li><img src="img/电影.png" alt="" ><a href="#">电影</a></li>
+            <li><img src="img/电视剧.png" alt=""><a href="#">电视剧</a></li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <span style="font-size: 20px">特色频道</span>
+            <li><img src="img/影视.png" alt=""><a href="#">影视</a></li>
+            <li><img src="img/游戏.png" alt=""><a href="#">游戏</a></li>
+            <li><img src="img/音乐.png" alt=""><a href="#">音乐</a></li>
+            <li><img src="img/美食.png" alt=""><a href="#">美食</a></li>
+            <li><img src="img/农民.png" alt=""><a href="#">农人</a></li>
+            <li><img src="img/拍摄.png" alt=""><a href="#">VLOG</a></li>
+        </ul>
+    </div>
+    <div class="bodyright">
+        <div>
+            <img src="images/3atlasImg1.jpg" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/3atlasImg2.jpg" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/3atlasImg3.jpg" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/3atlasImg4.jpg" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/3atlasImg5.jpg" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/3atlasImg6.jpg" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/3atlasImg7.jpg" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/3atlasImg8.jpg" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/atlasImg1.png" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/atlasImg2.jpeg" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div>
+            <img src="images/atlasImg3.png" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+        <div><img src="images/atlasImg4.png" alt="">
+            <span>aaaaaaa</span>
+            <span>aaaaaaa</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

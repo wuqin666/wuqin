@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+input,button,select,textarea{outline:none;}
+.header{
+    height: 67px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    background: white;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+.logo{
+    float: left;
+    margin-left: 130px;
+}
+.headimg{
+    width: 120px;
+    height: 36px;
+    line-height:26px ;
+
+}
+
+.main{
+    font-size: 14px;
+    color: #666666;
+    margin: 0 0 0 5px;
+    padding: 11px 0 0 ;
+    text-decoration: none;
+}
+.dorp{
+
+    position: relative;
+    display: inline-block;
+    border:none;
+
+}
+.dorp select{
+    border: none;
+    font-size: 15px;
+}
+.dorp select option{
+    width: 30px;
+}
+select:focus { outline: none; }
+.dorp_con{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 14px 14px;
+    margin-top: 5px;
+    margin-left: -15px;
+    color: #999999;
+    text-align: center;
+}
+.searchbtn{
+    width: 80px;
+    height: 44px;
+    background-color: red;
+    border-radius: 5px;
+    border: 0px;
+}
+.search{
+    float: left;
+    display: flex;
+    align-items: center;
+    border: 1px solid #cccccc;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 30px;
+}
+.log{
+    float: left;
+    margin-left: 60px;
+}
+.log1{
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 80px;
+    height: 44px;
+}
+.register{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 80px;
+    height: 44px;
+}
+.choice{
+    height: 50px;
+    margin-left: 80px;
+    float: left;
+}
+.vip1{
+    float: left;
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.tag1{
+    width: 920px;
+    height: 40px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: -1px;
+    justify-content: center;
+}
+.tag1 li{
+    text-align: center;
+    line-height: 40px;
+    margin-right: 35px;
+    display: inline-block;
+    margin-top: 2px;
+}
+.tag1 li a:hover{
+    color: coral;
+}
+.tag1 li a{
+    text-decoration: none;
+    color: #666666;
+}

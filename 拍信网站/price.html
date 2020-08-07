@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/price.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/price.js"></script>
+    <title>套餐价格</title>
+</head>
+<body>
+    <div class="header" style="z-index: 2;">
+    <div class="header1">
+        <div class="logo">
+            <img src="images/logo.svg" alt="" class="headimg">
+            <a href="index.html" class="main">主站</a>
+        </div>
+        <div class="search">&nbsp;&nbsp;&nbsp;
+            <div class="dorp">
+                <select>
+                    <option value ="volvo">图片</option>
+                    <option value ="saab">设计</option>
+                    <option value="opel">高端</option>
+                    <option value="audi">视频</option>
+                    <option value="audi">字体</option>
+                </select>
+            </div>
+            &nbsp;
+            <img class="photo" src="images/photo.png" alt="" style="width: 32px;height: 32px;margin-left: 10px">
+            <input type="text" placeholder="点击左侧相机按钮即可”以图搜图“" style="width: 350px;height: 44px;border: 0px">
+            <button class="searchbtn"><img src="images/search.png" alt="" style="width: 25px;height: 25px;text-align: center"></button>
+        </div>
+        <div class="choice">
+            <div class="vip1">
+                <img src="images/VIP.png" alt="" style="width: 30px;height: 30px">
+                <span style="font-size: 12px;color: #999999;cursor: pointer" onclick="window.location.href='ownVIP.html'">个人VIP</span>
+            </div>
+            <div class="vip1">
+                <img src="images/VIP%20(1).png" alt="" style="width: 30px;height: 30px">
+                <span style="font-size: 12px;color: #999999;cursor: pointer" onclick="window.location.href='enterprise_VIP.html'">企业VIP</span>
+            </div>
+            <div class="vip1" >
+                <img src="images/price.png" alt="" style="width: 30px;height: 30px">
+                <span style="font-size: 12px;color: #999999;cursor: pointer" onclick="window.location.href='price.html'">套餐价格</span>
+            </div>
+            <div class="vip1">
+                <img src="images/xiaoxi.png" alt="" style="width: 30px;height: 30px">
+                <span style="font-size: 12px;color: #999999">消息中心</span>
+            </div>
+        </div>
+        <div class="log">
+            <button class="log1">登录</button>
+            <button class="register">注册</button>
+        </div>
+    </div>
+    </div>
+    <div class="tag">
+    <ul class="tag1">
+        <li><a href="index.html" id="zbtp">首页</a></li>
+        <li><a href="gennine_imgs.html" >正版图片 <img src="images/Fire.png" alt="" style="width: 16px;height: 16px;"></a></li>
+        <li><a href="high-endpicture.html">高端图片</a></li>
+        <li><a href="vedio.html">商用视频</a></li>
+        <li><a href="authorized_font.html">授权字体</a></li>
+        <li><a href="">版权音乐</a></li>
+        <li><a href="">更多服务</a></li>
+    </ul>
+</div>
+    <div class="box">
+            <img src="images/wenan.7320f4d.svg" alt="">
+            <div class="packageType">
+                <div class="packageType-list" style="color: rgb(255,41,63); z-index: 1; cursor: pointer;" onclick="change()">图片</div>
+                <div class="packageType-list" style="color: rgb(255, 255, 255); left: 200px; cursor: pointer;" onclick="change()">视频</div>
+                <div class="packageType-bar" style="position: absolute; left: 2px;top: 2px;"></div>
+            </div> 
+            <div class="package">
+                <div class="mon-package">
+                    <div class="tit-cont">
+                        <h3>月订阅标准套餐</h3>
+                        <span style="color: rgba(51, 51, 51, 0.6);">可下载大图尺寸，<span>30</span>天下载有效期</span>
+                    </div>
+                    <div class="package-list">
+                        <div class="chose">
+                            <span>30天</span>
+                            <span style="background: #f4f6f9; color: black;">360天</span>
+                        </div>
+                        <div class="list">
+                            <div class="selection-tit">
+                                <span style="left: 80px;">数量</span>
+                                <span style="left: 160px;">总价</span>
+                                <span style="left: 260px;top: 10px; padding: 5px 15px;background: linear-gradient(138deg, #00c6ff 0%, #0072ff 100%); color: #FFFFFF;">冰点价</span>
+                                <span style="left: 380px;">单价</span>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selection-cont">
+                    <div class="selection-list">
+                        <input type="radio" name="radio">
+                        <span style="left: 80px;">10张</span>
+                        <span style="left: 160px;">￥199</span>
+                        <span style="left: 380px;">￥19.90/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio">
+                        <span style="left: 80px;">30张</span>
+                        <span style="left: 160px;"><s>￥500</s></span>
+                        <span style="left: 260px; color: #038bf0;">￥400</span>
+                        <span style="left: 380px;">￥13.33/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio">
+                        <span style="left: 80px;">50张</span>
+                        <span style="left: 160px;"><s>￥750</s></span>
+                        <span style="left: 260px; color: #038bf0;">￥600</span>
+                        <span style="left: 380px;">￥12.00/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio">
+                        <span style="left: 80px;">100张</span>
+                        <span style="left: 160px;"><s>￥1200</s></span>
+                        <span style="left: 260px; color: #038bf0;">￥950</span>
+                        <span style="left: 380px;">￥9.50/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio">
+                        <span style="left: 80px;">200张</span>
+                        <span style="left: 160px;">￥2000</span>
+                        <span style="left: 380px;">￥10.00/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio">
+                        <span style="left: 80px;">500张</span>
+                        <span style="left: 160px;">￥4500</span>
+                        <span style="left: 380px;">￥9.00/张</span>
+                    </div>
+                    </div>
+                    <div class="buy">
+                    <div class="condition">
+                        适合线上线下等使用《标准授权许可》使用，可下载图片区任意尺寸图片或矢量文件
+                    </div>
+                    <div class="btn">
+                        立即购买
+                    </div>
+                    </div>
+            </div>  
+            <div class="year-package">
+                <div class="tit-cont">
+                    <h3>包年标准套餐</h3>
+                    <span style="color: rgba(51, 51, 51, 0.6);">可下载大图尺寸，365天下载有效期；赠图下载有效期30天 </span>
+                </div>
+                <div class="package-list">
+                    <div class="list">
+                        <div class="selection-tit">
+                            <span style="left: 80px;">数量</span>
+                            <span style="left: 220px;">总价</span>
+                            <span style="left: 280px;top: 10px; padding: 5px 15px;background: linear-gradient(138deg, #00c6ff 0%, #0072ff 100%); color: #FFFFFF;">冰点价</span>
+                            <span style="left: 380px;">单价</span>                               
+                        </div>
+                    </div>
+                </div>
+                <div class="selection-cont">
+                    <div class="selection-list">
+                        <input type="radio" name="radio1">
+                        <span style="left: 80px;">1张</span>
+                        <span style="left: 120px;width: 60px;height: 20px; padding: 2px 8px;background: linear-gradient(134deg, #f55ece 0%, #bf4bec 100%);border-radius: 2px;font-size: 12px;color: white; line-height: 20px; margin-top: 12px;">新用户专享</span>
+                        <span style="left: 220px;">￥199</span>
+                        <span style="left: 380px;">￥19.90/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio1">
+                        <span style="left: 80px;">5张</span>
+                        <span style="left: 120px;width: 35px;height: 20px; padding: 2px 8px;background: linear-gradient(134deg, #f55ece 0%, #bf4bec 100%);border-radius: 2px;font-size: 12px;color: white; line-height: 20px; margin-top: 12px;">赠5张</span>
+                        <span style="left: 220px;"><s>￥350</s></span>
+                        <span style="left: 280px; color: #038bf0;">￥200</span>
+                        <span style="left: 380px;">￥19.90/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio1">
+                        <span style="left: 80px;">20张</span>
+                        <span style="left: 120px;width: 40px;height: 20px; padding: 2px 8px;background: linear-gradient(134deg, #f55ece 0%, #bf4bec 100%);border-radius: 2px;font-size: 12px;color: white; line-height: 20px; margin-top: 12px;">赠10张</span>
+                        <span style="left: 220px;">￥900</span>
+                        <span style="left: 380px;">￥13.33/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio1">
+                        <span style="left: 80px;">50张</span>
+                        <span style="left: 120px;width: 40px;height: 20px; padding: 2px 8px;background: linear-gradient(134deg, #f55ece 0%, #bf4bec 100%);border-radius: 2px;font-size: 12px;color: white; line-height: 20px; margin-top: 12px;">赠20张</span>
+                        <span style="left: 220px;"><s>￥1960</s></span>
+                        <span style="left: 280px; color: #038bf0;">￥1700</span>
+                        <span style="left: 380px;">￥24.29/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio1">
+                        <span style="left: 80px;">100张</span>
+                        <span style="left: 130px;width: 40px;height: 20px; padding: 2px 8px;background: linear-gradient(134deg, #f55ece 0%, #bf4bec 100%);border-radius: 2px;font-size: 12px;color: white; line-height: 20px; margin-top: 12px;">赠30张</span>
+                        <span style="left: 220px;"><s>￥3300</s></span>
+                        <span style="left: 280px; color: #038bf0;">￥3000</span>
+                        <span style="left: 380px;">￥9.50/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio1">
+                        <span style="left: 80px;">200张</span>
+                        <span style="left: 130px;width: 40px;height: 20px; padding: 2px 8px;background: linear-gradient(134deg, #f55ece 0%, #bf4bec 100%);border-radius: 2px;font-size: 12px;color: white; line-height: 20px; margin-top: 12px;">赠50张</span>
+                        <span style="left: 220px;">￥5000</span>
+                        <span style="left: 380px;">￥20.00/张</span>
+                    </div>
+                    <div class="selection-list">
+                        <input type="radio" name="radio1">
+                        <span style="left: 80px;">500张</span>
+                        <span style="left: 130px;width: 50px;height: 20px; padding: 2px 8px;background: linear-gradient(134deg, #f55ece 0%, #bf4bec 100%);border-radius: 2px;font-size: 12px;color: white; line-height: 20px; margin-top: 12px;">赠100张</span>
+                        <span style="left: 220px;">￥9000</span>
+                        <span style="left: 380px;">￥15.00/张</span>
+                    </div>
+                </div>
+                <div class="buy">
+                <div class="condition">
+                    适合线上线下等使用《标准授权许可》使用，可下载图片区任意尺寸图片或矢量文件
+                </div>
+                <div class="btn">
+                    立即购买
+                </div>
+            </div>
+            </div> 
+            
+            </div>
+            <div class="curstom">
+                <img src="images/Bitmap.21cb061.svg" alt="">
+                <div class="bgcus">
+                    大客户定制
+                </div>
+                <div class="cuUse">
+                    享受素材管理、用户管理和全面的权益保障等一体化服务，更适合大型企业团队的创意需求
+                </div>
+                <div class="consulation">
+                    点我质询
+                </div>
+            </div>
+            <div class="type">
+                <div class="packageType">
+                    <div class="packageType-list" style="color: rgb(255,255,255);">授权范围</div>
+                    <div class="packageType-list" style="color: rgb(0, 0, 0); left: 200px;">服务范围</div>
+                    <div class="packageType-bar"></div>
+                </div> 
+            </div>
+            <div class="content_wrap">
+                <div class="list" style="font-weight: 800;line-height: 66px;position: relative;">
+                    <span style="display: block;position: absolute;width: 100px; left: 30px;">适用范围</span>
+                    <span style="display: block;position: absolute;width: 100px; left: 800px;">标准授权</span>
+                    <span style="display: block;position: absolute;width: 100px; left: 1000px;">扩展授权</span>
+                </div>
+                <div class="list" style="position: relative; line-height: 66px;">
+                    <span style="display: block;position: absolute;left: 30px;  font-size: 0.8rem; color: #222;">微博，微信，百家号，头条号等自媒体文章配图</span>
+                    <div style="position: absolute; top: 23px; left: 825px;"><img src="images/√.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                    <div style="position: absolute; top: 23px; left: 1025px;"><img src="images/√.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                </div>
+                <div class="list" style="position: relative; line-height: 66px;">
+                    <span style="display: block;position: absolute;left: 30px;  font-size: 0.8rem; color: #222;">宣传页，画报，报纸杂志，商品包装，易拉宝，书籍和教材出版</span>
+                    <div style="position: absolute;left: 825px; color: #ff365d; font-size: 0.8rem;">限50万份</div>
+                    <div style="position: absolute;left: 1025px; color: #ff365d; font-size: 0.8rem;">无限制</div>
+                </div>
+                <div class="list" style="position: relative; line-height: 66px;">
+                    <span style="display: block;position: absolute;left: 30px;  font-size: 0.8rem; color: #222;">线上广告，电子出版物，报纸广告，杂志广告，户外广告（灯箱，车体，展板，橱窗等）</span>
+                    <div style="position: absolute;left: 825px; color: #ff365d; font-size: 0.8rem;">限50万份</div>
+                    <div style="position: absolute;left: 1025px; color: #ff365d; font-size: 0.8rem;">无限制</div>
+                </div>
+                <div class="list" style="position: relative; line-height: 66px;">
+                    <span style="display: block;position: absolute;left: 30px;  font-size: 0.8rem; color: #222;">网站，APP配图，商城，网页游戏，幻灯片，flash</span>
+                    <div style="position: absolute; top: 23px; left: 825px;"><img src="images/√.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                    <div style="position: absolute; top: 23px; left: 1025px;"><img src="images/√.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                </div>
+                <div class="list" style="position: relative; line-height: 66px;">
+                    <span style="display: block;position: absolute;left: 30px;  font-size: 0.8rem; color: #222;">电影，电视，网路视频</span>
+                    <div style="position: absolute; top: 23px; left: 825px;"><img src="images/√.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                    <div style="position: absolute; top: 23px; left: 1025px;"><img src="images/√.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                </div>
+                <div class="list" style="position: relative; line-height: 66px;">
+                    <span style="display: block;position: absolute;left: 30px;  font-size: 0.8rem; color: #222;">转售商品，印刷品。如:T恤，杯子，手机壳，鼠标垫等</span>
+                    <div style="position: absolute; top: 23px; left: 825px;"><img src="images/×.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                    <div style="position: absolute; top: 23px; left: 1025px;"><img src="images/√.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                </div>
+                <div class="list" style="position: relative; line-height: 66px;">
+                    <span style="display: block;position: absolute;left: 30px;  font-size: 0.8rem; color: #222;">转售设计元素</span>
+                    <div style="position: absolute; top: 23px; left: 825px;"><img src="images/×.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                    <div style="position: absolute; top: 23px; left: 1025px;"><img src="images/√.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                </div>
+                <div class="list" style="position: relative; line-height: 66px;">
+                    <span style="display: block;position: absolute;left: 30px;  font-size: 0.8rem; color: #222;">商标、logo</span>
+                    <div style="position: absolute; top: 23px; left: 825px;"><img src="images/×.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                    <div style="position: absolute; top: 23px; left: 1025px;"><img src="images/×.svg" alt="" style="height: 20px;width: 20px;padding: 0;"></div>
+                </div>
+            </div>   
+            <div class="btn-group">
+                <div class="btn1">
+                    购买套餐
+                </div>
+                <div class="btn2">
+                    咨询客服
+                </div>
+            </div>    
+    </div>
+    <div id="footer">
+        <div id="right_logo">
+            <img src="images/font_img/paixinLogo.svg" width="300px" height="70px" />
+            <span style="margin-left: 50px;">中国领先的视觉版权内容平台</span>
+            <h1 style="color: red;margin-top:30px;text-align: center;">400-9613-900</h1>
+        </div>
+        <div id="table">
+            <table style="margin-top: 30px;text-align:center;width: 600px;">
+
+                <tr style="height: 50px;">
+                    <th>探索与想法</th>
+                    <th>拍信研究院</th>
+                    <th>拍信社群</th>
+                    <th>拍信工具</th>
+                </tr>
+                <tr style="height: 50px;">
+                    <td>公益基金</td>
+                    <td>关于拍信</td>
+                    <td>商务合作</td>
+                    <td>企业定制</td>
+                </tr>
+                <tr style="height: 50px;">
+                    <td>授权说明</td>
+                    <td>加入我们</td>
+                    <td>摄影师签约</td>
+                    <td>我要供稿</td>
+                </tr>
+                <tr style="height: 50px;">
+                    <td>7MX摄影社区</td>
+                    <td>表扬我们</td>
+                    <td>设计师签约</td>
+                    <td></td>
+                </tr>
+                <tr style="height: 50px;">
+                    <td></td>
+                    <td>有奖反馈栏</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="left_er">
+            <img src="images/font_img/dog.jpeg" width="168px" height="168px" />
+            <h6 style="color: gray;text-align: center;margin-top: 30px;">添加拍信微信客服</h6>
+        </div>
+        <div id="footer_bottom">
+            <h6 style="color: gray;text-align: center;">© 2017 江苏拍信文化创意有限公司 All Rights Reserved   |  增值电信业务经营许可证 苏B2-20190018</h6>
+        </div>
+    </div>
+</body>
+</html>

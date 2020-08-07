@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+input,button,select,textarea{outline:none;}
+.header{
+    height: 67px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    background: white;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+.logo{
+    float: left;
+    margin-left: 130px;
+}
+.headimg{
+    width: 120px;
+    height: 36px;
+    line-height:26px ;
+
+}
+
+.main{
+    font-size: 14px;
+    color: #666666;
+    margin: 0 0 0 5px;
+    padding: 11px 0 0 ;
+    text-decoration: none;
+}
+.dorp{
+
+    position: relative;
+    display: inline-block;
+    border:none;
+
+}
+.dorp select{
+    border: none;
+    font-size: 15px;
+}
+.dorp select option{
+    width: 30px;
+}
+select:focus { outline: none; }
+.dorp_con{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 14px 14px;
+    margin-top: 5px;
+    margin-left: -15px;
+    color: #999999;
+    text-align: center;
+}
+.searchbtn{
+    width: 80px;
+    height: 44px;
+    background-color: red;
+    border-radius: 5px;
+    border: 0px;
+}
+.search{
+    float: left;
+    display: flex;
+    align-items: center;
+    border: 1px solid #cccccc;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 30px;
+}
+.log{
+    float: left;
+    margin-left: 60px;
+}
+.log1{
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 80px;
+    height: 44px;
+}
+.register{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 80px;
+    height: 44px;
+}
+.choice{
+    height: 50px;
+    margin-left: 80px;
+    float: left;
+}
+.vip1{
+    float: left;
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.tag1{
+    width: 920px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tag1 li{
+    text-align: center;
+    line-height: 40px;
+    margin-right: 35px;
+    display: inline-block;
+}
+.tag1 li a:hover{
+    color: coral;
+}
+.tag1 li a{
+    text-decoration: none;
+    color: #666666;
+}
+
+
+/*体*/
+#body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+/*大图片*/
+.banner_img{
+    width: 100%;
+    height: 291px;
+    background-image: url("../images/font_img/Bg.jpg");
+    margin-top: 30px;
+    background-size:1902px 291px;
+    padding:0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*说明*/
+#explanation{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: -90px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(215,215,215,0.35);
+}
+#explanation>div{
+    width: 300px;
+    height: 200px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+#explanation>div>img:first-child{
+    width: 42px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#explanation>div>img{
+    width: 118px;
+    height: 29px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+#explanation>div>span{
+    margin: 0 auto;
+    margin-top: -20px;
+    font-size: 14px;
+    color: #666666;
+}
+
+/*类别*/
+#category{
+    width: 1200px;
+    height: 52px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+#category>div{
+    width: 88px;
+    height: 32px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    line-height: 32px;
+    font-size: 13px;
+    background-color: #F2f2f2;
+    color: #333333;
+}
+#category>div:first-child{
+    margin-left: 80px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#category>div:last-child{
+    margin-right: 80px;
+}
+
+
+/*字体*/
+#font{
+    width: 1240px;
+    height: 1204px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+#font>div{
+    width: 380px;
+    height: 300px;
+    text-align: center;
+    margin-top: 0;
+    -webkit-transition: 300ms;
+}
+#font>div:hover{
+    margin-top: -5px;
+}
+
+#font>div>img{
+    width: 380px;
+    border: 1px solid #C9C9C9;
+}
+#font>div>text{
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    font-size: 16px;
+    color: #333333;
+    height: 33px;
+    margin-top: -6px;
+    line-height: 33px;
+}
+#font>#more{
+    width: 1240px;
+    height: 44px;
+    margin: 0 auto;
+}
+#font>#more>button{
+    width: 160px;
+    height: 44px;
+    background-color: #61C991;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+/*案例*/
+#applications{
+    width: 1340px;
+    height: 430px;
+    margin: 0 auto;
+}
+#applications>div{
+    width: 390px;
+    height: 380px;
+    float: left;
+    margin-left: 16px;
+    text-align: center;
+    overflow: hidden; /* 当溢出的时候隐藏*/
+}
+#applications>.title{
+    width: 1340px;
+    height: 43px;
+    font-size: 38px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    line-height: 43px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+#applications>div>text{
+    font-size: 16px;
+    color: #333333;
+    line-height: 38px;
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    margin-top: 20px;
+}
+#applications>.img{
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin: 0;
+    margin-top: 140px;
+}
+#applications>div:last-child{
+    margin-left: 20px;
+}
+#applications>.img>img{
+    width: 40px;
+    height: 40px;
+}
+.applications_img{
+    width: 390px;
+    height: 320px;
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.1, 1.1);
+    -webkit-transition: 300ms;
+}
+.applications_img:hover{
+    width: 395px;
+    height: 325px;
+}
+
+/*授权*/
+#authorization{
+    width: 1200px;
+    height: 914px;
+    margin: 0 auto;
+}
+#authorization>.title{
+    width: 1200px;
+    height: 90px;
+    font-size: 38px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    line-height: 90px;
+}
+#authorization>.content{
+    width:1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#authorization>.content>div{
+    width: 1200px;
+    float: left;
+}
+#authorization>.content>div:first-child{
+    height: 90px;
+}
+#authorization>.content>div>ul,li{
+    list-style: none;
+    float: left;
+    line-height: 90px;
+    margin: 0;
+    padding: 0;
+}
+#authorization>.content>div>ul>li{
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+    line-height: 90px;
+    font-size: 21px;
+    color: #333333;
+    font-weight: bold;
+    width: 173px;
+    height: 24px;
+    text-align: center;
+    margin-left: 0;
+}
+#authorization>.content>div>ul>li:first-child{
+    margin-right: 256px;
+}
+#authorization>.content>div>p{
+    width: 400px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    margin: 20px 0 20px 45px;
+}
+#authorization>.content>div>div{
+    width: 180px;
+    height: 20px;
+    float: left;
+}
+#authorization>.content>div>div{
+    width: 160px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+}
+#authorization>.content>div>div>img{
+    width: 20px;
+    height: 20px;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+
+/*定制*/
+#custom_made{
+    width: 1200px;
+    height: 128px;
+    margin: 0 auto;
+}
+#custom_made>img{
+    width: 1200px;
+    height: 128px;
+    margin: 0 auto;
+}
+#custom_made>button{
+    width: 119px;
+    height: 56px;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    background-color: #61C991;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top: -95px;
+    display: block;
+}
+
+/*尾*/
+#footer {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1200px;
+    height: 330px;
+}
+
+#right_logo {
+    float: left;
+    width: 300px;
+    height: 220px;
+    margin-top: 30px;
+}
+
+#table {
+    float: left;
+    margin-top: -10px;
+}
+
+#left_er {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#footer_bottom {
+    clear: both;
+}
+
+

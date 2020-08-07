@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css"/>
+    <style type="text/css">
+        #title a.active{
+            background: #00bfff url(images/banner1.png) no-repeat center bottom;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header1">
+            <div class="logo">
+                <img src="images/logo.svg" alt="" class="headimg">
+                <a href="index.html" class="main">主站</a>
+            </div>
+            <div class="search">&nbsp;&nbsp;&nbsp;
+                <div class="dorp">
+                    <select>
+                        <option value ="volvo">图片</option>
+                        <option value ="saab">设计</option>
+                        <option value="opel">高端</option>
+                        <option value="audi">视频</option>
+                        <option value="audi">字体</option>
+                    </select>
+                </div>
+                &nbsp;
+                <img class="photo" src="images/photo.png" alt="" style="width: 32px;height: 32px;margin-left: 10px">
+                <input type="text" placeholder="点击左侧相机按钮即可”以图搜图“" style="width: 350px;height: 44px;border: 0px">
+                <button class="searchbtn"><img src="images/search.png" alt="" style="width: 25px;height: 25px;text-align: center"></button>
+            </div>
+            <div class="choice">
+                <div class="vip1">
+                    <img src="images/VIP.png" alt="" style="width: 30px;height: 30px">
+                    <span style="font-size: 12px;color: #999999;cursor: pointer" onclick="window.location.href='ownVIP.html'">个人VIP</span>
+                </div>
+                <div class="vip1">
+                    <img src="images/VIP%20(1).png" alt="" style="width: 30px;height: 30px">
+                    <span style="font-size: 12px;color: #999999;cursor: pointer" onclick="window.location.href='enterprise_VIP.html'">企业VIP</span>
+                </div>
+                <div class="vip1" >
+                    <img src="images/price.png" alt="" style="width: 30px;height: 30px">
+                    <span style="font-size: 12px;color: #999999;cursor: pointer" onclick="window.location.href='price.html'">套餐价格</span>
+                </div>
+                <div class="vip1">
+                    <img src="images/xiaoxi.png" alt="" style="width: 30px;height: 30px">
+                    <span style="font-size: 12px;color: #999999">消息中心</span>
+                </div>
+            </div>
+            <div class="log">
+                <button class="log1">登录</button>
+                <button class="register">注册</button>
+            </div>
+        </div>
+    </div>
+    <div class="tag">
+        <ul class="tag1">
+            <li><a href="" id="zbtp">首页</a></li>
+            <li><a href="gennine_imgs.html" >正版图片 <img src="images/Fire.png" alt="" style="width: 16px;height: 16px;"></a></li>
+            <li><a href="high-endpicture.html">高端图片</a></li>
+            <li><a href="vedio.html">商用视频</a></li>
+            <li><a href="authorized_font.html">授权字体</a></li>
+            <li><a href="">版权音乐</a></li>
+            <li><a href="">更多服务</a></li>
+        </ul>
+    </div>
+    <div class="containerall">
+        <div class="carousel" >
+        <div id="pic">
+            <a href="#"><img src="images/banner1.png"></a>
+            <a href="#"><img src="images/banner2.png"></a>
+            <a href="#"><img src="images/banner3.png"></a>
+            <a href="#"><img src="images/banner4.png"></a>
+            <a href="#"><img src="images/banner5.png"></a>
+            <a href="#"><img src="images/banner6.png"></a>
+            <a href="#"><img src="images/banner7.png"></a>
+        </div>
+        <div id="title" onmouseover="stopTimer()" onmouseout="startTimer()" >
+            <a href="#" class="active"  onMouseOver="changebtn(0)">
+                <span>版权图片·大促销</span>
+            </a>
+            <a href="#"  onmouseover="changebtn(1)">
+                <span>促销海报·素材精选</span>
+            </a>
+            <a href="#"  onmouseover="changebtn(2)">
+                <span>设计师专属优惠</span>
+            </a>
+            <a href="#"  onmouseover="changebtn(3)">
+                <span>夏日·季刊</span>
+            </a>
+            <a href="#"  onmouseover="changebtn(4)">
+                <span>视频特惠</span>
+            </a>
+            <a href="#"  onmouseover="changebtn(5)">
+                <span>音乐VIP</span>
+            </a>
+            <a href="#"  onmouseover="changebtn(6)">
+                <span>拍信·创意</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div class="font">
+        <ul>
+            <li>正版图片: <a href="">225,299,168</a></li>
+            <li>商用视频: <a href="">990,255</a></li>
+            <li>授权字体: <a href="">3,000+</a></li>
+            <li>授权音乐: <a href="">999,000+</a></li>
+        </ul>
+        <button class="taocan" onclick="window.location.href='price.html'">
+            查看套餐
+        </button>
+    </div>
+    <div class="album">
+        <span class="albumText">精选专辑</span>
+        <div class="albumImg">
+            <img src="images/album1.png" alt="" >
+            <img src="images/album2.png" alt="" style="margin-left: 10px">
+            <img src="images/album3.png" alt="" style="margin-left: 10px" >
+        </div>
+    </div>
+    <div class="atlas">
+        <div class="atlasTag">
+           <ul>
+               <li class="check"><a href="">精选灵感</a></li>
+               <li><a href="" >图片灵感</a></li>
+               <li><a href="">插画灵感</a></li>
+               <li><a href="">视频灵感</a></li>
+           </ul>
+        </div>
+        <div class="atlasImgs">
+            <ul  class="one">
+                <li> <div class="atlasGroup1" style="position: relative">
+                        <div class="atlasImg1"><img src="images/1atlasImg1.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:70px;width: 56px;height: 30px;background:  #ffd101;border-radius: 5px;border: none;">插  画</button><span style="position: absolute; top: 90px;left:150px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">夏日-矢量</span></div>
+                        <div class="atlasImg2"><img src="images/1atlasImg2.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:350px;width: 56px;height: 30px;background: #7f13e7; color: white;border-radius: 5px;border: none;">视  频</button><span style="position: absolute; top: 90px;left:410px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">夏日时光-视频</span></div>
+                        <div class="atlasImg3"><img src="images/1atlasImg3.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:630px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:720px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">凉凉夏日</span></div>
+                        <div class="atlasImg4"><img src="images/1atlasImg4.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:910px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:990px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">夏日风光</span></div>
+                    </div>
+                    <div class="atlasGroup1" style="position: relative">
+                        <div class="atlasImg5"><img src="images/1atlasImg5.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:70px;width: 56px;height: 30px;background:  #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:170px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">毕业季</span></div>
+                        <div class="atlasImg6"><img src="images/1atlasImg6.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:350px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:430px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">世界人口</span></div>
+                        <div class="atlasImg7"><img src="images/1atlasImg7.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:630px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:700px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">人类月球日</span></div>
+                        <div class="atlasImg8"><img src="images/1atlasImg8.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:910px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:980px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">国际友谊日</span></div>
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;" class="two">
+                <li> <div class="atlasGroup1" style="position: relative">
+                    <div class="atlasImg1"><img src="images/atlasImg1.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:70px;width: 56px;height: 30px;background:  #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:170px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">生机绿</span></div>
+                    <div class="atlasImg2"><img src="images/atlasImg2.jpeg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:350px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:440px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">星辰大海</span></div>
+                    <div class="atlasImg3"><img src="images/atlasImg3.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:630px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:720px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">运动健身</span></div>
+                    <div class="atlasImg4"><img src="images/atlasImg4.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:910px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:990px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">柔美配图</span></div>
+                     </div>
+                     <div class="atlasGroup1" style="position: relative">
+                        <div class="atlasImg5"><img src="images/atlasImg5.jpeg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:70px;width: 56px;height: 30px;background:  #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:150px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">美少女集合</span></div>
+                        <div class="atlasImg6"><img src="images/atlasImg6.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:350px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:440px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">医疗美容</span></div>
+                        <div class="atlasImg7"><img src="images/atlasImg7.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:630px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:720px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">美容时尚</span></div>
+                        <div class="atlasImg8"><img src="images/atlasImg8.png" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:910px;width: 56px;height: 30px;background: #ff0e6c; color: white;border-radius: 5px;border: none;">图  片</button><span style="position: absolute; top: 90px;left:990px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">复古影像</span></div>
+                     </div>
+                </li>
+            </ul>
+            <ul style="display:none;" class="three">
+                <li> <div class="atlasGroup1" style="position: relative">
+                    <div class="atlasImg1"><img src="images/3atlasImg1.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:70px;width: 56px;height: 30px;background:  #ffd101;border-radius: 5px;border: none;">插  画</button><span style="position: absolute; top: 90px;left:120px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">电商素材-矢量</span></div>
+                    <div class="atlasImg2"><img src="images/3atlasImg2.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:350px;width: 56px;height: 30px;background: #ffd101;border-radius: 5px;border: none;">插  画</button><span style="position: absolute; top: 90px;left:430px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">几何色彩</span></div>
+                    <div class="atlasImg3"><img src="images/3atlasImg3.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:630px;width: 56px;height: 30px;background: #ffd101;border-radius: 5px;border: none;">插  画</button><span style="position: absolute; top: 90px;left:720px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">扁平插画</span></div>
+                    <div class="atlasImg4"><img src="images/3atlasImg4.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:910px;width: 56px;height: 30px;background: #ffd101;border-radius: 5px;border: none;">插  画</button><span style="position: absolute; top: 90px;left:990px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">矢量美妆</span></div>
+                </div>
+                    <div class="atlasGroup1" style="position: relative">
+                        <div class="atlasImg5"><img src="images/3atlasImg5.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:70px;width: 56px;height: 30px;background:  #ffd101;border-radius: 5px;border: none;">插  画</button><span style="position: absolute; top: 90px;left:120px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">矢量网站banner</span></div>
+                        <div class="atlasImg6"><img src="images/3atlasImg6.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:350px;width: 56px;height: 30px;background: #ffd101;border-radius: 5px;border: none;">插  画</button><span style="position: absolute; top: 90px;left:410px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">促销素材-矢量</span></div>
+                        <div class="atlasImg7"><img src="images/3atlasImg7.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:630px;width: 56px;height: 30px;background: #ffd101;border-radius: 5px;border: none;">插  画</button><span style="position: absolute; top: 90px;left:720px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">抽象背景</span></div>
+                        <div class="atlasImg8"><img src="images/3atlasImg8.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:910px;width: 56px;height: 30px;background: #ffd101;border-radius: 5px;border: none;">插  画</button><span style="position: absolute; top: 90px;left:990px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">花花世界</span></div>
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;" class="four">
+                <li> <div class="atlasGroup1" style="position: relative">
+                    <div class="atlasImg1"><img src="images/4atlasImg1.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:70px;width: 56px;height: 30px;background:   #7f13e7; color: white;border-radius: 5px;border: none;">视  频</button><span style="position: absolute; top: 90px;left:150px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">动物世界</span></div>
+                    <div class="atlasImg2"><img src="images/4atlasImg2.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:350px;width: 56px;height: 30px;background:  #7f13e7; color: white;border-radius: 5px;border: none;">视  频</button><span style="position: absolute; top: 90px;left:430px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">城市景观</span></div>
+                    <div class="atlasImg3"><img src="images/4atlasImg3.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:630px;width: 56px;height: 30px;background:  #7f13e7; color: white;border-radius: 5px;border: none;">视  频</button><span style="position: absolute; top: 90px;left:740px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">健身</span></div>
+                    <div class="atlasImg4"><img src="images/4atlasImg4.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:910px;width: 56px;height: 30px;background:  #7f13e7; color: white;border-radius: 5px;border: none;">视  频</button><span style="position: absolute; top: 90px;left:990px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">海滩背景</span></div>
+                </div>
+                    <div class="atlasGroup1" style="position: relative">
+                        <div class="atlasImg5"><img src="images/4atlasImg5.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:70px;width: 56px;height: 30px;background:   #7f13e7; color: white;border-radius: 5px;border: none;">视  频</button><span style="position: absolute; top: 90px;left:150px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">体育运动</span></div>
+                        <div class="atlasImg6"><img src="images/4atlasImg6.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:350px;width: 56px;height: 30px;background:  #7f13e7; color: white;border-radius: 5px;border: none;">视  频</button><span style="position: absolute; top: 90px;left:410px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">灵感创意-视频</span></div>
+                        <div class="atlasImg7"><img src="images/4atlasImg7.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:630px;width: 56px;height: 30px;background:  #7f13e7; color: white;border-radius: 5px;border: none;">视  频</button><span style="position: absolute; top: 90px;left:720px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">网络社交</span></div>
+                        <div class="atlasImg8"><img src="images/4atlasImg8.jpg" alt="" style="border-radius: 15px"><button style="position: absolute;top: 30px;left:910px;width: 56px;height: 30px;background:  #7f13e7; color: white;border-radius: 5px;border: none;">视  频</button><span style="position: absolute; top: 90px;left:990px;color: white;font-size: 22px;text-shadow:  0px 1px rgba(0, 0, 0, 0.75)">完美对称</span></div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="morebtn">
+            <button class="more">更多图集</button>
+        </div>
+    </div>
+    <div class="banner1">
+        <img src="images/banner1.png" alt="">
+    </div>
+    <div class="hot">
+        <div class="hotTag">
+            <span class="hotTitle">热门精选</span>
+            <div class="TitleTag">
+                   <button>抽象背景</button>
+                   <button>美女配图</button>
+                   <button>自然背景</button>
+                   <button>人物矢量</button>
+                   <button>城市全景</button>
+                   <button>运动健身</button>
+                   <button>科技-矢量</button>
+                   <button>潮流家具</button>
+                   <button>生机绿</button>
+                   <button>父亲节</button>
+            </div>
+        </div>
+        <div class="hotImg">
+            <ul  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenZ1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenZ2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenZ3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenZ4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenZ5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenZ6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenZ7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenZ8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenZ9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenZ10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenZ11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenZ12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenA1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenA2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenA3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenA4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenA5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenA6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenA7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenA8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenA9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenA10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenA11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenA12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenB1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenB2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenB3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenB4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenB5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenB6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenB7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenB8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenB9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenB10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenB11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenB12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenC1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenC2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenC3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenC4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenC5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenC6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenC7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenC8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenC9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenC10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenC11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenC12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenD1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenD2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenD3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenD4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenD5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenD6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenD7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenD8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenD9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenD10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenD11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenD12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenE1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenE2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenE3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenE4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenE5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenE6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenE7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenE8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenE9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenE10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenE11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenE12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenF1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenF2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenF3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenF4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenF5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenF6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenF7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenF8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenF9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenF10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenF11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenF12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenG1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenG2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenG3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenG4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenG5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenG6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenG7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenG8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenG9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenG10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenG11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenG12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenH1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenH2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenH3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenH4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenH5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenH6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenH7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenH8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenH9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenH10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenH11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenH12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="hotOne">
+                <li>
+                    <div class="hotGroup1">
+                        <img src="images/remenI1.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenI2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenI3.jpg" alt="" style="width: 270px;height: 200px">
+                        <img src="images/remenI4.jpg" alt="" style="width: 140px;height: 200px">
+                        <img src="images/remenI5.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenI6.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenI7.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenI8.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenI9.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/remenI10.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/remenI11.jpg" alt="" style="width: 448px;height: 200px">
+                        <img src="images/remenI12.jpg" alt="" style="width: 170px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="hotButton">
+            <button class="hotmore1">查看更多正版图片</button>
+            <button class="hotmore2" onclick="window.location.href='price.html'">查看适合自己的套餐</button>
+        </div>
+    </div>
+    <div class="shiliang">
+        <div class="shiliangTag">
+            <span class="shiliangTitle">矢量插画</span>
+            <div class="slTag">
+                <button>创意海报</button>
+                <button>人物矢量</button>
+                <button>情人节-矢量</button>
+                <button>几何色彩</button>
+                <button style="width: 100px">2020设计素材</button>
+                <button style="width: 100px">2.5D商务插画</button>
+                <button>手绘插画</button>
+                <button>科技-矢量</button>
+                <button style="width: 100px">促销素材-矢量</button>
+            </div>
+        </div>
+        <div class="shiliangImg">
+            <ul  class="slOne">
+                <li>
+                    <div class="slGroup1">
+                        <img src="images/shiliangA1.jpg" alt="" style="width: 331px;height: 420px">
+                        <img src="images/shiliangA2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/shiliangA3.jpg" alt="" style="width: 288px;height: 200px">
+                        <img src="images/shiliangA4.jpg" alt="" style="width: 220px;height: 200px">
+                        <img src="images/shiliangA5.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangA6.jpg" alt="" style="width: 305px;height: 200px">
+                        <img src="images/shiliangA7.jpg" alt="" style="width: 250px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="slOne">
+                <li>
+                    <div class="slGroup1">
+                        <img src="images/shiliangB1.jpg" alt="" style="width: 331px;height: 420px">
+                        <img src="images/shiliangB2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/shiliangB3.jpg" alt="" style="width: 288px;height: 200px">
+                        <img src="images/shiliangB4.jpg" alt="" style="width: 220px;height: 200px">
+                        <img src="images/shiliangB5.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangB6.jpg" alt="" style="width: 305px;height: 200px">
+                        <img src="images/shiliangB7.jpg" alt="" style="width: 250px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="slOne">
+                <li>
+                    <div class="slGroup1">
+                        <img src="images/shiliangC1.jpg" alt="" style="width: 331px;height: 420px">
+                        <img src="images/shiliangC2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/shiliangC3.jpg" alt="" style="width: 288px;height: 200px">
+                        <img src="images/shiliangC4.jpg" alt="" style="width: 220px;height: 200px">
+                        <img src="images/shiliangC5.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangC6.jpg" alt="" style="width: 305px;height: 200px">
+                        <img src="images/shiliangC7.jpg" alt="" style="width: 250px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="slOne">
+                <li>
+                    <div class="slGroup1">
+                        <img src="images/shiliangD1.JPG" alt="" style="width: 331px;height: 420px">
+                        <img src="images/shiliangD2.JPG" alt="" style="width: 286px;height: 200px">
+                        <img src="images/shiliangD3.JPG" alt="" style="width: 288px;height: 200px">
+                        <img src="images/shiliangD4.JPG" alt="" style="width: 220px;height: 200px">
+                        <img src="images/shiliangD5.JPG" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangD6.JPG" alt="" style="width: 305px;height: 200px">
+                        <img src="images/shiliangD7.JPG" alt="" style="width: 250px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="slOne">
+                <li>
+                    <div class="slGroup1">
+                        <img src="images/shiliangE1.JPG" alt="" style="width: 331px;height: 420px">
+                        <img src="images/shiliangE2.JPG" alt="" style="width: 286px;height: 200px">
+                        <img src="images/shiliangE3.JPG" alt="" style="width: 288px;height: 200px">
+                        <img src="images/shiliangE4.JPG" alt="" style="width: 220px;height: 200px">
+                        <img src="images/shiliangE5.JPG" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangE6.JPG" alt="" style="width: 305px;height: 200px">
+                        <img src="images/shiliangE7.JPG" alt="" style="width: 250px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="slOne">
+                <li>
+                    <div class="slGroup1">
+                        <img src="images/shiliangF1.JPG" alt="" style="width: 331px;height: 420px">
+                        <img src="images/shiliangF2.JPG" alt="" style="width: 286px;height: 200px">
+                        <img src="images/shiliangF3.JPG" alt="" style="width: 288px;height: 200px">
+                        <img src="images/shiliangF4.JPG" alt="" style="width: 220px;height: 200px">
+                        <img src="images/shiliangF5.JPG" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangF6.JPG" alt="" style="width: 305px;height: 200px">
+                        <img src="images/shiliangF7.JPG" alt="" style="width: 250px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;" class="slOne">
+                <li>
+                    <div class="slGroup1">
+                        <img src="images/shiliangG1.JPG" alt="" style="width: 331px;height: 420px">
+                        <img src="images/shiliangG2.JPG" alt="" style="width: 286px;height: 200px">
+                        <img src="images/shiliangG3.JPG" alt="" style="width: 288px;height: 200px">
+                        <img src="images/shiliangG4.JPG" alt="" style="width: 220px;height: 200px">
+                        <img src="images/shiliangG5.JPG" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangG6.JPG" alt="" style="width: 305px;height: 200px">
+                        <img src="images/shiliangG7.jpg" alt="" style="width: 250px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="slOne">
+                <li>
+                    <div class="slGroup1">
+                        <img src="images/shiliangH1.jpg" alt="" style="width: 331px;height: 420px">
+                        <img src="images/shiliangH2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/shiliangH3.jpg" alt="" style="width: 288px;height: 200px">
+                        <img src="images/shiliangH4.jpg" alt="" style="width: 220px;height: 200px">
+                        <img src="images/shiliangH5.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangH6.jpg" alt="" style="width: 305px;height: 200px">
+                        <img src="images/shiliangH7.jpg" alt="" style="width: 250px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="slOne">
+                <li>
+                    <div class="slGroup1">
+                        <img src="images/shiliangI1.jpg" alt="" style="width: 331px;height: 420px">
+                        <img src="images/shiliangI2.jpg" alt="" style="width: 286px;height: 200px">
+                        <img src="images/shiliangI3.jpg" alt="" style="width: 288px;height: 200px">
+                        <img src="images/shiliangI4.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangI5.jpg" alt="" style="width: 240px;height: 200px">
+                        <img src="images/shiliangI6.jpg" alt="" style="width: 305px;height: 200px">
+                        <img src="images/shiliangI7.jpg" alt="" style="width: 250px;height: 200px">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="slButton">
+            <button class="slmore1">查看更多正版图片</button>
+            <button class="slmore2" onclick="window.location.href='price.html'">查看适合自己的套餐</button>
+        </div>
+    </div>
+    <div class="shangye">
+        <div class="shangyeTag">
+            <span class="shangyeTitle">商用视频</span>
+            <div class="syTag">
+                <button>合家欢-视频</button>
+                <button>科技</button>
+                <button>城市景观</button>
+                <button style="width: 100px">灵感创意-视频</button>
+                <button>体育运动</button>
+                <button style="width: 100px">夏日时光-视频</button>
+                <button style="width: 100px">动态萌宠-视频</button>
+                <button>自然奇观</button>
+                <button>魅力女人</button>
+            </div>
+        </div>
+        <div class="shangyeImg">
+            <ul  class="syOne">
+                <li>
+                    <div class="syGroup1" style="position: relative;">
+                        <img src="images/shangyeA1.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeA2.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeA3.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeA4.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 970px; width: 100px;height: 100px">
+                        <img src="images/shangyeA5.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeA6.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeA7.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeA8.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 970px; width: 100px;height: 100px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="syOne">
+                <li>
+                    <div class="syGroup1" style="position: relative;">
+                        <img src="images/shangyeB1.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeB2.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeB3.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeB4.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 970px; width: 100px;height: 100px">
+                        <img src="images/shangyeB5.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeB6.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeB7.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeB8.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 970px; width: 100px;height: 100px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;"  class="syOne">
+                <li>
+                    <div class="syGroup1" style="position: relative;">
+                        <img src="images/shangyeC1.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeC2.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeC3.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeC4.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 970px; width: 100px;height: 100px">
+                        <img src="images/shangyeC5.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeC6.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeC7.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeC8.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 970px; width: 100px;height: 100px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="syOne">
+                <li>
+                    <div class="syGroup1" style="position: relative;">
+                        <img src="images/shangyeD1.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeD2.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeD3.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeD4.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 970px; width: 100px;height: 100px">
+                        <img src="images/shangyeD5.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeD6.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeD7.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeD8.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 970px; width: 100px;height: 100px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="syOne">
+                <li>
+                    <div class="syGroup1" style="position: relative;">
+                        <img src="images/shangyeE1.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeE2.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeE3.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeE4.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 970px; width: 100px;height: 100px">
+                        <img src="images/shangyeE5.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeE6.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeE7.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeE8.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 970px; width: 100px;height: 100px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="syOne">
+                <li>
+                    <div class="syGroup1" style="position: relative;">
+                        <img src="images/shangyeF1.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeF2.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeF3.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeF4.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 970px; width: 100px;height: 100px">
+                        <img src="images/shangyeF5.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeF6.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeF7.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeF8.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 970px; width: 100px;height: 100px">
+                    </div>
+                </li>
+            </ul>
+            <ul style="display:none;" class="syOne">
+                <li>
+                    <div class="syGroup1" style="position: relative;">
+                        <img src="images/shangyeG1.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeG2.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeG3.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeG4.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 970px; width: 100px;height: 100px">
+                        <img src="images/shangyeG5.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeG6.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeG7.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeG8.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 970px; width: 100px;height: 100px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="syOne">
+                <li>
+                    <div class="syGroup1" style="position: relative;">
+                        <img src="images/shangyeH1.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeH2.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeH3.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeH4.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 970px; width: 100px;height: 100px">
+                        <img src="images/shangyeH5.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeH6.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeH7.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeH8.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 970px; width: 100px;height: 100px">
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="syOne">
+                <li>
+                    <div class="syGroup1" style="position: relative;">
+                        <img src="images/shangyeI1.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeI2.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeI3.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeI4.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:50px;left: 970px; width: 100px;height: 100px">
+                        <img src="images/shangyeI5.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 90px; width: 100px;height: 100px">
+                        <img src="images/shangyeI6.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 390px; width: 100px;height: 100px">
+                        <img src="images/shangyeI7.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 670px; width: 100px;height: 100px">
+                        <img src="images/shangyeI8.jpg" alt="" style="width: 286px;height: 200px"><img src="images/play.png" alt="" style="position: absolute;top:280px;left: 970px; width: 100px;height: 100px">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="syButton">
+            <button class="symore1">查看更多高清视频</button>
+            <button class="symore2" onclick="window.location.href='price.html'">查看适合自己的套餐</button>
+        </div>
+    </div>
+    <div class="banner2">
+        <img src="images/banner2.png" alt="">
+    </div>
+    <div class="fonts">
+        <div class="fontsTag">
+            <span class="fontsTitle">授权字体</span>
+        </div>
+        <div class="fontsImg">
+            <div class="fontsImg1"><img src="images/font1.png" alt="" style="width: 286px;height: 180px"></div>
+            <div class="fontsImg2"><img src="images/font2.png" alt="" style="width: 286px;height: 180px"></div>
+            <div class="fontsImg3"><img src="images/font3.png" alt="" style="width: 286px;height: 180px"></div>
+            <div class="fontsImg4"><img src="images/font4.png" alt="" style="width: 286px;height: 180px"></div>
+            <div class="fontsImg5"><img src="images/font5.png" alt="" style="width: 286px;height: 180px"></div>
+            <div class="fontsImg6"><img src="images/font6.png" alt="" style="width: 286px;height: 180px"></div>
+            <div class="fontsImg7"><img src="images/font7.png" alt="" style="width: 286px;height: 180px"></div>
+            <div class="fontsImg8"><img src="images/font8.png" alt="" style="width: 286px;height: 180px"></div>
+        </div>
+        <div class="fontbutton">
+            <button class="fontsmore">查看更多授权字体</button>
+        </div>
+    </div>
+    <div class="music">
+        <div class="musicTag">
+            <span class="musicTitle">版权音乐</span>
+            <div class="yyTag">
+                <button>风格</button>
+                <button>乐器</button>
+                <button>情绪</button>
+                <button>场景</button>
+                <button>长度</button>
+                <button>地区</button>
+                <button>人声</button>
+                <button>速度</button>
+            </div>
+        </div>
+        <div class="musicImg">
+            <ul  class="musicOne">
+                <li>
+                    <div class="yyGroup1" style="position: relative;">
+                        <div class="yyImg1"><img src="images/musicA1.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 120px"><span style="position: absolute;top: 150px;left: 120px;font-size: 24px;color: #ffffff">流  行</span></div>
+                        <div class="yyImg2"><img src="images/musicA2.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 410px"><span style="position: absolute;top: 150px;left: 370px;font-size: 24px;color: #ffffff">轻音乐/心灵</span></div>
+                        <div class="yyImg3"><img src="images/musicA3.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 700px"><span style="position: absolute;top: 150px;left: 670px;font-size: 24px;color: #ffffff">电影/戏剧</span></div>
+                        <div class="yyImg4"><img src="images/musicA4.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 990px"><span style="position: absolute;top: 150px;left: 995px;font-size: 24px;color: #ffffff">古典</span></div>
+                        <div class="yyImg5"><img src="images/musicA5.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 120px"><span style="position: absolute;top: 380px;left: 120px;font-size: 24px;color: #ffffff">史  诗</span></div>
+                        <div class="yyImg6"><img src="images/musicA6.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 410px"><span style="position: absolute;top: 380px;left: 380px;font-size: 24px;color: #ffffff">古风/民乐</span></div>
+                        <div class="yyImg7"><img src="images/musicA7.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 700px"><span style="position: absolute;top: 380px;left: 670px;font-size: 24px;color: #ffffff">舞曲/电子</span></div>
+                        <div class="yyImg8"><img src="images/musicA8.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 990px"><span style="position: absolute;top: 380px;left: 970px;font-size: 24px;color: #ffffff">世界音乐</span></div>
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="musicOne">
+                <li>
+                    <div class="yyGroup1" style="position: relative;">
+                        <div class="yyImg1"><img src="images/musicA1.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 120px"><span style="position: absolute;top: 150px;left: 60px;font-size: 24px;color: #ffffff">爵士鼓/电子鼓</span></div>
+                        <div class="yyImg2"><img src="images/musicA2.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 410px"><span style="position: absolute;top: 150px;left: 390px;font-size: 24px;color: #ffffff">木琴/铃</span></div>
+                        <div class="yyImg3"><img src="images/musicA3.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 700px"><span style="position: absolute;top: 150px;left: 690px;font-size: 24px;color: #ffffff">合成器</span></div>
+                        <div class="yyImg4"><img src="images/musicA4.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 980px"><span style="position: absolute;top: 150px;left: 950px;font-size: 24px;color: #ffffff">钢琴/电钢琴</span></div>
+                        <div class="yyImg5"><img src="images/musicA5.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 120px"><span style="position: absolute;top: 380px;left:90px;font-size: 24px;color: #ffffff">口哨/口技</span></div>
+                        <div class="yyImg6"><img src="images/musicA6.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 410px"><span style="position: absolute;top: 380px;left: 410px;font-size: 24px;color: #ffffff">贝斯</span></div>
+                        <div class="yyImg7"><img src="images/musicA7.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 700px"><span style="position: absolute;top: 380px;left: 700px;font-size: 24px;color: #ffffff">弦乐</span></div>
+                        <div class="yyImg8"><img src="images/musicA8.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 980px"><span style="position: absolute;top: 380px;left:930px;font-size: 24px;color: #ffffff">国乐器/中式乐器</span></div>
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="musicOne">
+                <li>
+                    <div class="yyGroup1" style="position: relative;">
+                        <div class="yyImg1"><img src="images/musicA1.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 120px"><span style="position: absolute;top: 150px;left: 110px;font-size: 24px;color: #ffffff">快乐的</span></div>
+                        <div class="yyImg2"><img src="images/musicA2.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 410px"><span style="position: absolute;top: 150px;left: 400px;font-size: 24px;color: #ffffff">凶猛的</span></div>
+                        <div class="yyImg3"><img src="images/musicA3.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 700px"><span style="position: absolute;top: 150px;left: 690px;font-size: 24px;color: #ffffff">宁静的</span></div>
+                        <div class="yyImg4"><img src="images/musicA4.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 980px"><span style="position: absolute;top: 150px;left: 970px;font-size: 24px;color: #ffffff">时尚的</span></div>
+                        <div class="yyImg5"><img src="images/musicA5.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 120px"><span style="position: absolute;top: 380px;left: 110px;font-size: 24px;color: #ffffff">神秘的</span></div>
+                        <div class="yyImg6"><img src="images/musicA6.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 410px"><span style="position: absolute;top: 380px;left: 380px;font-size: 24px;color: #ffffff">戏剧性的</span></div>
+                        <div class="yyImg7"><img src="images/musicA7.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 700px"><span style="position: absolute;top: 380px;left: 690px;font-size: 24px;color: #ffffff">悲伤的</span></div>
+                        <div class="yyImg8"><img src="images/musicA8.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 980px"><span style="position: absolute;top: 380px;left: 950px;font-size: 24px;color: #ffffff">怀抱希望的</span></div>
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="musicOne">
+                <li>
+                    <div class="yyGroup1" style="position: relative;">
+                        <div class="yyImg1"><img src="images/musicA1.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 120px"><span style="position: absolute;top: 150px;left: 120px;font-size: 24px;color: #ffffff">影视</span></div>
+                        <div class="yyImg2"><img src="images/musicA2.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 410px"><span style="position: absolute;top: 150px;left: 410px;font-size: 24px;color: #ffffff">游戏</span></div>
+                        <div class="yyImg3"><img src="images/musicA3.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 700px"><span style="position: absolute;top: 150px;left: 700px;font-size: 24px;color: #ffffff">广告</span></div>
+                        <div class="yyImg4"><img src="images/musicA4.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 980px"><span style="position: absolute;top: 150px;left: 970px;font-size: 24px;color: #ffffff">短视频</span></div>
+                        <div class="yyImg5"><img src="images/musicA5.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 120px"><span style="position: absolute;top: 380px;left: 120px;font-size: 24px;color: #ffffff">餐饮</span></div>
+                        <div class="yyImg6"><img src="images/musicA6.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 410px"><span style="position: absolute;top: 380px;left: 410px;font-size: 24px;color: #ffffff">节目</span></div>
+                        <div class="yyImg7"><img src="images/musicA7.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 700px"><span style="position: absolute;top: 380px;left: 680px;font-size: 24px;color: #ffffff">活动庆典</span></div>
+                        <div class="yyImg8"><img src="images/musicA8.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 980px"><span style="position: absolute;top: 380px;left: 980px;font-size: 24px;color: #ffffff">宗教</span></div>
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="musicOne">
+                <li>
+                    <div class="yyGroup1" style="position: relative;">
+                        <div class="yyImg1"><img src="images/musicA1.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 120px"><span style="position: absolute;top: 150px;left: 120px;font-size: 24px;color: #ffffff">~30s</span></div>
+                        <div class="yyImg2"><img src="images/musicA2.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 410px"><span style="position: absolute;top: 150px;left: 390px;font-size: 24px;color: #ffffff">31s-60s</span></div>
+                        <div class="yyImg3"><img src="images/musicA3.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 700px"><span style="position: absolute;top: 150px;left: 660px;font-size: 24px;color: #ffffff">1min-2min</span></div>
+                        <div class="yyImg4"><img src="images/musicA4.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 980px"><span style="position: absolute;top: 150px;left: 950px;font-size: 24px;color: #ffffff">2min-3min</span></div>
+                        <div class="yyImg5"><img src="images/musicA5.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 120px"><span style="position: absolute;top: 380px;left: 90px;font-size: 24px;color: #ffffff">3min-5min</span></div>
+                        <div class="yyImg6"><img src="images/musicA6.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 410px"><span style="position: absolute;top: 380px;left: 370px;font-size: 24px;color: #ffffff">5min-10min</span></div>
+                        <div class="yyImg7"><img src="images/musicA7.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 700px"><span style="position: absolute;top: 380px;left: 680px;font-size: 24px;color: #ffffff">10min~</span></div>
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="musicOne">
+                <li>
+                    <div class="yyGroup1" style="position: relative;">
+                        <div class="yyImg1"><img src="images/musicA1.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 120px"><span style="position: absolute;top: 150px;left: 125px;font-size: 24px;color: #ffffff">中式</span></div>
+                        <div class="yyImg2"><img src="images/musicA2.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 410px"><span style="position: absolute;top: 150px;left: 410px;font-size: 24px;color: #ffffff">日式</span></div>
+                        <div class="yyImg3"><img src="images/musicA3.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 700px"><span style="position: absolute;top: 150px;left: 700px;font-size: 24px;color: #ffffff">美式</span></div>
+                        <div class="yyImg4"><img src="images/musicA4.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 980px"><span style="position: absolute;top: 150px;left: 990px;font-size: 24px;color: #ffffff">法式</span></div>
+                        <div class="yyImg5"><img src="images/musicA5.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 120px"><span style="position: absolute;top: 380px;left: 110px;font-size: 24px;color: #ffffff">西班牙</span></div>
+                        <div class="yyImg6"><img src="images/musicA6.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 410px"><span style="position: absolute;top: 380px;left: 380px;font-size: 24px;color: #ffffff">西亚/中东</span></div>
+                        <div class="yyImg7"><img src="images/musicA7.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 700px"><span style="position: absolute;top: 380px;left: 700px;font-size: 24px;color: #ffffff">意式</span></div>
+                        <div class="yyImg8"><img src="images/musicA8.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 980px"><span style="position: absolute;top: 380px;left: 990px;font-size: 24px;color: #ffffff">非洲</span></div>
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="musicOne">
+                <li>
+                    <div class="yyGroup1" style="position: relative;">
+                        <div class="yyImg1"><img src="images/musicA1.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 120px"><span style="position: absolute;top: 150px;left: 128px;font-size: 24px;color: #ffffff">女声</span></div>
+                        <div class="yyImg2"><img src="images/musicA2.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 410px"><span style="position: absolute;top: 150px;left: 410px;font-size: 24px;color: #ffffff">男声</span></div>
+                        <div class="yyImg3"><img src="images/musicA3.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 700px"><span style="position: absolute;top: 150px;left: 700px;font-size: 24px;color: #ffffff">和声</span></div>
+                        <div class="yyImg4"><img src="images/musicA4.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 980px"><span style="position: absolute;top: 150px;left: 980px;font-size: 24px;color: #ffffff">对唱</span></div>
+                    </div>
+                </li>
+            </ul>
+            <ul  style="display:none;" class="musicOne">
+                <li>
+                    <div class="yyGroup1" style="position: relative;">
+                        <div class="yyImg1"><img src="images/musicA1.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 120px"><span style="position: absolute;top: 150px;left: 100px;font-size: 24px;color: #ffffff">1-60bpm</span></div>
+                        <div class="yyImg2"><img src="images/musicA2.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 410px"><span style="position: absolute;top: 150px;left: 380px;font-size: 24px;color: #ffffff">61-80bpm</span></div>
+                        <div class="yyImg3"><img src="images/musicA3.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 700px"><span style="position: absolute;top: 150px;left: 670px;font-size: 24px;color: #ffffff">81-100bpm</span></div>
+                        <div class="yyImg4"><img src="images/musicA4.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:50px;left: 980px"><span style="position: absolute;top: 150px;left: 950px;font-size: 24px;color: #ffffff">101-120bpm</span></div>
+                        <div class="yyImg5"><img src="images/musicA5.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 120px"><span style="position: absolute;top: 380px;left: 80px;font-size: 24px;color: #ffffff">121-140bpm</span></div>
+                        <div class="yyImg6"><img src="images/musicA6.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 410px"><span style="position: absolute;top: 380px;left: 370px;font-size: 24px;color: #ffffff">141-160bpm</span></div>
+                        <div class="yyImg7"><img src="images/musicA7.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 700px"><span style="position: absolute;top: 380px;left: 660px;font-size: 24px;color: #ffffff">161-400bpm</span></div>
+                        <div class="yyImg8"><img src="images/musicA8.png" alt="" style="width: 286px;height: 200px"><img src="images/music.svg" alt="" style="position: absolute;top:280px;left: 980px"><span style="position: absolute;top: 380px;left: 950px;font-size: 24px;color: #ffffff">无固定速度</span></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="yyButton">
+            <button class="yymore1">查看更多音乐素材</button>
+            <button class="yymore2" onclick="window.location.href='price.html'">查看适合自己的套餐</button>
+        </div>
+    </div>
+    <div class="bottomtag">
+        <div class="bottomtext">
+            <span>200,000+企业的选择</span>
+        </div>
+        <div class="bottombutton">
+            <button>互联网科技</button>
+            <button>金融</button>
+            <button>电子通讯</button>
+            <button>医疗美容</button>
+            <button>传媒</button>
+            <button>其他</button>
+        </div>
+    </div>
+    <div class="callme">
+        <div class="callmeTitle">联系我们</div>
+        <div class="callmeImg">
+            <div class="callqq">
+                <img src="images/qq.png" alt="">
+                <span class="calltext1">QQ沟通</span>
+                <span class="calltext2">快速套餐购买咨询</span>
+            </div>
+            <div class="callqq">
+                <img src="images/电话.png" alt="">
+                <span class="calltext1">666-666-666</span>
+                <span class="calltext2">工作时间：9:00-20:00</span>
+
+            </div>
+            <div class="callqq">
+                <img src="images/微信.png" alt="">
+                <span class="calltext1">微信公众号</span>
+                <span class="calltext2">微信扫一扫关注我们</span>
+            </div>
+            <div class="callqq">
+                <img src="images/帮助中心.png" alt="">
+                <span class="calltext1">帮助中心</span>
+                <span class="calltext2">有问题点这里～</span>
+            </div>
+        </div>
+    </div>
+<!--    <div id="foot">-->
+<!--        <div>-->
+<!--            <img src="images/paixinLogo.svg" alt="">-->
+<!--            <text>中国领先的视觉版权内容平台</text>-->
+<!--            <br>-->
+<!--            <text>400-9613-900</text>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <ul>-->
+<!--                <li>探索与想法</li>-->
+<!--                    <br>-->
+<!--                <li>公益基金</li>-->
+<!--                    <br>-->
+<!--                <li>授权说明</li>-->
+<!--                    <br>-->
+<!--                <li>7MX摄影社区</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <ul>-->
+<!--                <li>拍信研究院</li>-->
+<!--                    <br>-->
+<!--                <li>关于拍信</li>-->
+<!--                    <br>-->
+<!--                <li>加入我们</li>-->
+<!--                    <br>-->
+<!--                <li>表扬我们</li>-->
+<!--                    <br>-->
+<!--                <li>有奖反馈栏</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <ul>-->
+<!--                <li>拍信社区</li>-->
+<!--                    <br>-->
+<!--                <li>商务合作</li>-->
+<!--                    <br>-->
+<!--                <li>摄影师签约</li>-->
+<!--                    <br>-->
+<!--                <li>设计师签约</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <ul>-->
+<!--                <li>拍信工具</li>-->
+<!--                    <br>-->
+<!--                <li>企业定制</li>-->
+<!--                    <br>-->
+<!--                <li>我要供稿</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <img src="images/dog.jpeg" alt="">-->
+<!--        </div>-->
+<!--    </div>-->
+    <div id="footer">
+        <div id="right_logo">
+            <img src="images/font_img/paixinLogo.svg" width="300px" height="70px" />
+            <span style="margin-left: 50px;">中国领先的视觉版权内容平台</span>
+            <h1 style="color: red;margin-top:30px;text-align: center;">400-9613-900</h1>
+        </div>
+        <div id="table">
+            <table style="margin-top: 30px;text-align:center;width: 600px;">
+
+                <tr style="height: 50px;">
+                    <th>探索与想法</th>
+                    <th>拍信研究院</th>
+                    <th>拍信社群</th>
+                    <th>拍信工具</th>
+                </tr>
+                <tr style="height: 50px;">
+                    <td>公益基金</td>
+                    <td>关于拍信</td>
+                    <td>商务合作</td>
+                    <td>企业定制</td>
+                </tr>
+                <tr style="height: 50px;">
+                    <td>授权说明</td>
+                    <td>加入我们</td>
+                    <td>摄影师签约</td>
+                    <td>我要供稿</td>
+                </tr>
+                <tr style="height: 50px;">
+                    <td>7MX摄影社区</td>
+                    <td>表扬我们</td>
+                    <td>设计师签约</td>
+                    <td></td>
+                </tr>
+                <tr style="height: 50px;">
+                    <td></td>
+                    <td>有奖反馈栏</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div id="left_er">
+            <img src="images/font_img/dog.jpeg" width="168px" height="168px" />
+            <h6 style="color: gray;text-align: center;margin-top: 30px;">添加拍信微信客服</h6>
+        </div>
+        <div id="footer_bottom">
+            <h6 style="color: gray;text-align: center;">© 2017 江苏拍信文化创意有限公司 All Rights Reserved   |  增值电信业务经营许可证 苏B2-20190018</h6>
+        </div>
+    </div>
+
+    <div id="hotview" style="width: 400px;height: 330px;display: none;position: absolute;top: 120px;left: 220px;background-color: white;border-radius: 5px">
+        <div>
+            <button style="border-radius: 15px;width: 120px; height: 30px;margin-left: 10px;margin-top: 10px;border: none;background-color: #f9f9f9">动漫人物</button>
+            <button style="border-radius: 15px;width: 120px; height: 30px;margin-left: 10px;margin-top: 10px;border: none;background-color: #f9f9f9">孤独患者</button>
+            <button style="border-radius: 15px;width: 120px; height: 30px;margin-left: 10px;margin-top: 10px;border: none;background-color: #f9f9f9">精美壁纸</button>
+        </div>
+        <div style="margin-top: 20px">
+            <img src="images/3atlasImg1.jpg" alt="" style="width: 150px;height: 80px;float: left;margin-left: 30px;border-radius: 10px">
+            <img src="images/3atlasImg2.jpg" alt="" style="width: 150px;height: 80px;float: left;margin-left: 30px;border-radius: 10px">
+            <img src="images/3atlasImg3.jpg" alt="" style="width: 150px;height: 80px;float: left;margin-left: 30px;border-radius: 10px;margin-top: 10px">
+            <img src="images/3atlasImg4.jpg" alt="" style="width: 150px;height: 80px;float: left;margin-left: 30px;border-radius: 10px;margin-top: 10px">
+            <img src="images/3atlasImg5.jpg" alt="" style="width: 150px;height: 80px;float: left;margin-left: 30px;border-radius: 10px;margin-top: 10px">
+            <img src="images/3atlasImg6.jpg" alt="" style="width: 150px;height: 80px;float: left;margin-left: 30px;border-radius: 10px;margin-top: 10px">
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+        var zbtp = document.getElementById("zbtp");
+        var hotview = document.getElementById("hotview");
+            zbtp.onmouseover = function () {
+                hotview.style.display="block";
+        }
+            hotview.onmouseover = function () {
+                hotview.style.display="block";
+        }
+            hotview.onmouseout = function () {
+                hotview.style.display="none";
+            }
+
+
+
+        function $(id){
+            return document.getElementById(id);
+        }
+        //定义下标，图片轮播
+        var nextpic=1;
+        function carousel(){
+            var imgArray=$("pic").getElementsByTagName("img");
+            var aArray=$("title").getElementsByTagName("a");
+            for(i=0;i<imgArray.length;i++){
+                if(i==nextpic){
+                    imgArray[i].style.opacity="1";
+                    aArray[i].style.backgroundColor="#00bfff";
+                    aArray[i].className="active";
+                }else{
+                    imgArray[i].style.opacity="0";
+                    aArray[i].style.backgroundColor="rgb(0,0,0,0.3)";
+                    aArray[i].className="";
+                }
+            }
+            if (nextpic==imgArray.length-1) {
+                nextpic=0;
+            }else{
+                nextpic++;
+            }
+        }
+        function changebtn(n){
+            var imgArray=$("pic").getElementsByTagName("img");
+            var aArray=$("title").getElementsByTagName("a");
+            for(i=0;i<imgArray.length;i++){
+                imgArray[i].style.opacity="0";
+                aArray[i].style.backgroundColor="rgb(0,0,0,0.3)";
+                aArray[i].className="";
+            }
+            imgArray[n].style.opacity="1";
+            aArray[n].style.backgroundColor="#00bfff";
+            aArray[n].className="active";
+
+        }
+        var timer=setInterval(carousel,2000);
+        function startTimer(){
+            stopTimer();
+            timer=setInterval(carousel,2000);
+        }
+        function stopTimer(){
+            clearInterval(timer);
+        }
+
+
+
+        /*--灵感悬停切换--*/
+        function $_class(name){
+            var elements = document.getElementsByTagName("*");
+            for(s=0;s<elements.length;s++){
+                if(elements[s].className==name){
+                    return elements[s];
+                }
+            }
+        }
+        var tabList = $_class("atlasTag").getElementsByTagName("li")
+        tabCon = $_class("atlasImgs").getElementsByTagName("ul");
+        for(i=0;i<tabList.length;i++){
+            (function(){
+                var t = i;
+                tabList[t].onmouseover = function(){
+                    for(o=0;o<tabCon.length;o++){
+                        tabCon[o].style.display = "none";
+                        tabList[o].className = "";
+                        if(t==o){
+                            this.className = "check";
+                            tabCon[o].style.display = "block";
+                        }
+                    }
+                }
+            })()
+        }
+
+
+
+
+        /*--热门--*/
+        function $_class(name){
+            var elements = document.getElementsByTagName("*");
+            for(x=0;x<elements.length;x++){
+                if(elements[x].className==name){
+                    return elements[x];
+                }
+            }
+        }
+        var hotList = $_class("TitleTag").getElementsByTagName("button")
+        hotCon = $_class("hotImg").getElementsByTagName("ul");
+        for(i=0;i<hotList.length;i++){
+            (function(){
+                var m = i;
+                hotList[m].onclick = function(){
+                    for(o=0;o<hotCon.length;o++){
+                        hotCon[o].style.display = "none";
+                        hotList[o].className = "";
+                        if(m==o){
+                            this.className = "check";
+                            hotCon[o].style.display = "block";
+                            hotList[o].style.background="linear-gradient(135deg, #fc238d 0%, #fe2d44 100%)"
+                            hotList[o].style.color="white";
+                        }
+                        else{
+                            hotList[o].style.background="#f2f2f2";
+                            hotList[o].style.color="black";
+                        }
+                    }
+                }
+            })()
+        }
+
+        /*--矢量--*/
+        function $_class(name){
+            var elements = document.getElementsByTagName("*");
+            for(x=0;x<elements.length;x++){
+                if(elements[x].className==name){
+                    return elements[x];
+                }
+            }
+        }
+        var slList = $_class("shiliangTag").getElementsByTagName("button")
+        slCon = $_class("shiliangImg").getElementsByTagName("ul");
+        for(i=0;i<slList.length;i++){
+            (function(){
+                var m = i;
+                slList[m].onclick = function(){
+                    for(o=0;o<slCon.length;o++){
+                        slCon[o].style.display = "none";
+                        slList[o].className = "";
+                        if(m==o){
+                            this.className = "check";
+                            slCon[o].style.display = "block";
+                            slList[o].style.background="linear-gradient(135deg, #fc238d 0%, #fe2d44 100%)";
+                            slList[o].style.color="white";
+                        }
+                        else{
+                            slList[o].style.background="#f2f2f2";
+                            slList[o].style.color="black";
+                        }
+                    }
+                }
+            })()
+        }
+
+
+        /*--商业--*/
+        function $_class(name){
+            var elements = document.getElementsByTagName("*");
+            for(x=0;x<elements.length;x++){
+                if(elements[x].className==name){
+                    return elements[x];
+                }
+            }
+        }
+        var syList = $_class("shangyeTag").getElementsByTagName("button")
+        syCon = $_class("shangyeImg").getElementsByTagName("ul");
+        for(i=0;i<syList.length;i++){
+            (function(){
+                var m = i;
+                syList[m].onclick = function(){
+                    for(o=0;o<syCon.length;o++){
+                        syCon[o].style.display = "none";
+                        syList[o].className = "";
+                        if(m==o){
+                            this.className = "check";
+                            syCon[o].style.display = "block";
+                            syList[o].style.background="linear-gradient(135deg, #fc238d 0%, #fe2d44 100%)";
+                            syList[o].style.color="white";
+                        }
+                        else{
+                            syList[o].style.background="#f2f2f2";
+                            syList[o].style.color="black";
+                        }
+                    }
+                }
+            })()
+        }
+
+        /*--音乐--*/
+        function $_class(name){
+            var elements = document.getElementsByTagName("*");
+            for(x=0;x<elements.length;x++){
+                if(elements[x].className==name){
+                    return elements[x];
+                }
+            }
+        }
+        var yyList = $_class("musicTag").getElementsByTagName("button")
+        yyCon = $_class("musicImg").getElementsByTagName("ul");
+        for(i=0;i<yyList.length;i++){
+            (function(){
+                var m = i;
+                yyList[m].onclick = function(){
+                    for(o=0;o<yyCon.length;o++){
+                        yyCon[o].style.display = "none";
+                        yyList[o].className = "";
+                        if(m==o){
+                            this.className = "check";
+                            yyCon[o].style.display = "block";
+                            yyList[o].style.background="linear-gradient(135deg, #fc238d 0%, #fe2d44 100%)";
+                            yyList[o].style.color="white";
+                        }
+                        else{
+                            yyList[o].style.background="#f2f2f2";
+                            yyList[o].style.color="black";
+                        }
+                    }
+                }
+            })()
+        }
+    </script>
+</body>
+</html>

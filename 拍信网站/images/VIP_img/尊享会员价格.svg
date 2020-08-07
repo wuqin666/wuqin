@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="186px" height="66px" viewBox="0 0 186 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>企业会员页备份 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="企业会员页" transform="translate(-1316.000000, -473.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1920" height="3476"></rect>
+            <rect id="矩形" stroke="#F2F2F2" fill="#FFFFFF" x="361" y="389" width="1198" height="1069"></rect>
+            <g id="编组-24" transform="translate(1326.000000, 470.000000)" fill="#000000">
+                <text id="1799" font-family="PingFangSC-Semibold, PingFang SC" font-size="50" font-weight="500">
+                    <tspan x="0.425" y="53">2799</tspan>
+                </text>
+                <text id="3999" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" text-decoration="line-through">
+                    <tspan x="116.9" y="31">3999</tspan>
+                </text>
+                <text id="元/2年" font-family="PingFangSC-Light, PingFang SC" font-size="16" font-weight="300">
+                    <tspan x="116.7" y="52">元/2年</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

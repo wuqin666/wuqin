@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>路径</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-934.000000, -2299.000000)" fill-rule="nonzero">
+            <g id="叉号-copy-5备份-3" transform="translate(934.000000, 2299.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <polygon id="路径" fill="#FF0000" points="15.9849367 2.67043314 2.67043581 15.9849341 0.00376914062 13.3239171 13.3201533 0.00941620312"></polygon>
+                <polygon id="路径" fill="#FF0000" points="2.66290284 0 15.9774038 13.3145009 13.3163868 15.9811676 0.00188590625 2.66478342"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
